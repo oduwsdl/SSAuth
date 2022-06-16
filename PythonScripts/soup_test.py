@@ -17,12 +17,14 @@ def main(argv):
     
     # List to hold tweet texts
     tweet_list = []
-    #Soup Strainer to parse only tweet-text
+    # Soup Strainer to parse only tweet-text
     only_tweet_text = ss('p', class_='tweet-text')
+    # Store argument for username
+    username = str(sys.argv[1])
     
     # Make request for first page of tweets
     page_num = 1
-    url = requests.get('https://projects.propublica.org/politwoops/user/' + str(sys.argv[1]) + '?page=' + str(page_num))
+    url = requests.get('https://projects.propublica.org/politwoops/user/' + username + '?page=' + str(page_num))
     html_text = url.text
     soup = bs(html_text, 'html.parser', parse_only=only_tweet_text)
     tag = soup.p
@@ -35,7 +37,7 @@ def main(argv):
     
         # Make request for next page of tweets
         page_num += 1
-        url = requests.get('https://projects.propublica.org/politwoops/user/' + str(sys.argv[1]) + '?page=' + str(page_num))
+        url = requests.get('https://projects.propublica.org/politwoops/user/' + username + '?page=' + str(page_num))
         html_text = url.text
         soup = bs(html_text, 'html.parser', parse_only=only_tweet_text)
         tag = soup.p
@@ -43,7 +45,7 @@ def main(argv):
     
     print('Length before deleting duplicates: ' + str(len(tweet_list)))
     
-    # Get rid of duplicates as there are a lot
+    # Get rid of duplicates as there are a lot (usually doubles size of the list)
     tweet_list = list(dict.fromkeys(tweet_list))
     # Get rid of extra newline characters in the tweet
     tweet_list = [tweet.replace('\n', '') for tweet in tweet_list]
