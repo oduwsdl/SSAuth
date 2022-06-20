@@ -55,38 +55,6 @@ def main(argv):
     username = sys.argv[1]
         
     tweet_list = get_tweet_list(username)
-    
-    # # List to hold tweet texts
-    # tweet_list = []
-    # # Soup Strainer to parse only tweet-text
-    # only_tweet_text = ss('p', class_='tweet-text')
-    # # Store argument for username
-    # username = str(sys.argv[1])
-    
-    # # Make request for first page of tweets
-    # page_num = 1
-    # url = requests.get('https://projects.propublica.org/politwoops/user/' + username + '?page=' + str(page_num))
-    # html_text = url.text
-    # soup = bs(html_text, 'html.parser', parse_only=only_tweet_text)
-    # tag = soup.p
-        
-    # # Loop while tag is valid; page_num refers to page with tweets on it
-    # while(not(tag is None)):
-    #     # Add tweets on page to list
-    #     for sibling in tag.next_siblings:
-    #         tweet_list.append(sibling.text)
-    
-    #     # Make request for next page of tweets
-    #     page_num += 1
-    #     url = requests.get('https://projects.propublica.org/politwoops/user/' + username + '?page=' + str(page_num))
-    #     html_text = url.text
-    #     soup = bs(html_text, 'html.parser', parse_only=only_tweet_text)
-    #     tag = soup.p
-
-    # # Get rid of duplicates as there are a lot (usually doubles size of the list)
-    # tweet_list = list(dict.fromkeys(tweet_list))
-    # # Get rid of extra newline characters in the tweet
-    # tweet_list = [tweet.replace('\n', '') for tweet in tweet_list]
         
     # Print tweets
     for tweet in tweet_list:
