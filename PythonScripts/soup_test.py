@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import sys
 import requests
+import string
 from bs4 import BeautifulSoup as bs
 from bs4 import SoupStrainer as ss
 from check_user import check_username
@@ -38,7 +39,7 @@ def get_tweet_list(username):
     # Get rid of duplicates as there are a lot (usually doubles size of the list)
     tweet_list = list(dict.fromkeys(tweet_list))
     # Get rid of extra newline characters in the tweet
-    tweet_list = [tweet.replace('\n', '') for tweet in tweet_list]
+    tweet_list = [tweet.translate({ord(c): None for c in string.whitespace}) for tweet in tweet_list]
     
     return tweet_list
 
