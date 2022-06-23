@@ -15,6 +15,8 @@ def get_tweet_list(username):
     only_tweet_text = ss('p', class_='tweet-text')
     # Store argument for username
     username = str(sys.argv[1])
+    # String used to later filter out unnecessary noise
+    strip_string = string.whitespace + string.punctuation
     
     # Make request for first page of tweets
     page_num = 1
@@ -38,8 +40,9 @@ def get_tweet_list(username):
 
     # Get rid of duplicates as there are a lot (usually doubles size of the list)
     tweet_list = list(dict.fromkeys(tweet_list))
-    # Get rid of extra newline characters in the tweet
-    tweet_list = [tweet.translate({ord(c): None for c in string.whitespace}) for tweet in tweet_list]
+    # Get rid of extra noise in the tweets that would cause comparison to fail
+    tweet_list = [tweet.translate({ord(c): None for c in strip_string}) for tweet in tweet_list]
+    tweet_list = [tweet.encode('ascii', errors = 'ignore') for tweet in tweet_list]
     
     return tweet_list
 
