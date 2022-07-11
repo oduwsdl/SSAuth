@@ -38,5 +38,5 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        python -m pytest ToolsForPolitwoops/tests/test_query.py
-        python -m pytest ToolsForPolitwoops/tests/test_check_user.py
+        python -m pytest ToolsForPolitwoops/test_query.py
+        python -m pytest ToolsForPolitwoops/test_check_user.py
