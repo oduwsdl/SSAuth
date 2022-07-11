@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import sys
 import requests
 import string
@@ -11,14 +9,13 @@ from urllib.parse import urlencode
 # Will make a query to Politwoops for tweet passed as argument
 # Returns a list containing all results found with the query
 # This list may contain elements that have unexpected white space, characters, etc
-def query_politwoops(tweet):
+def perform_query(tweet):
     # Soup Strainer to parse only tweet-text
     only_tweet_text = ss('p', class_='tweet-text')
     # First part of URL for a query
     site = "https://projects.propublica.org/politwoops/index?utf8=%E2%9C%93&"
     # Creating the query string
     query_tweet = tweet[:50]
-    
     mydict = {'q': query_tweet}
     qstr = urlencode(mydict)
     query = site + qstr
@@ -63,7 +60,12 @@ def find_tweet(tweet, tweet_list):
     
     # Do comparison
     return search_tweet in search_list
-    
+
+# Combines functionality of above functions
+# Performs query and comparison, returns appropriate boolean
+def query_politwoops(tweet):
+    query_results = perform_query(tweet)
+    return find_tweet(tweet, query_results)
 
 def main(argv):
     if(len(sys.argv) != 2):
@@ -75,21 +77,15 @@ def main(argv):
     except FileNotFoundError:
         print('Please provide an input file that exists')
         sys.exit(1)
-    
-    print(full_tweet)
-    # List to hold tweet texts
-    tweet_list = query_politwoops(full_tweet)
+        
+    # print(full_tweet)
+    # print(len(full_tweet))
     
     # If no results, then it does not exist
-    if not tweet_list:
-        print('Query turned up no results')
-        sys.exit(2)
-        
-    if(find_tweet(full_tweet, tweet_list)):
+    if query_politwoops(full_tweet):
         print("That tweet was successfully queried on Politwoops")
     else:
-        print("The query found results. However, the tweet in question was not found")
-    
+        print("That tweet was not found on Politwoops")
     
 if __name__ == "__main__":
     main(sys.argv[1:])
