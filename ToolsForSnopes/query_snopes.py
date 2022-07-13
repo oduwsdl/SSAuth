@@ -15,6 +15,15 @@ def grab_links(query_url):
     
     return list_of_links
 
+def grab_rating(article_url):
+    print('grabbing rating')
+    rating_strainer = ss(class_ = 'figure-image img-responsive img-fluid w-100 Media--image')
+    html = requests.get(article_url)
+    html_text = html.text
+    soup = bs(html_text, 'html.parser', parse_only = rating_strainer)
+    tag = soup.img
+    return tag.get('alt')
+
 def main(argv):
     print('I have started')
     url = "https://www.snopes.com/?s=i+guess+we+finally+ran+out+of+microchips"
@@ -24,10 +33,8 @@ def main(argv):
 
     print(list_of_links)
 
-    follow_link = requests.get(list_of_links[0])
-    follow_link_html = follow_link.text
-    follow_soup = bs(follow_link_html, 'html.parser')
-    print(follow_soup.prettify())
+    article_url = list_of_links[0]
+    print(grab_rating(article_url))
 
 
 
