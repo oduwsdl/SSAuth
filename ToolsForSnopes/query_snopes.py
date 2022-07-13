@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup as bs
 import sys
 from bs4 import SoupStrainer as ss
 import requests
+from urllib.parse import urlencode
 
 def grab_links(query_url):
     # Setup bs object
@@ -24,12 +25,19 @@ def grab_rating(article_url):
     tag = soup.img
     return tag.get('alt')
 
+def generate_query_url(snopes_query):
+    query_dict = {'s': snopes_query}
+    print(urlencode(query_dict))
+    return ('?' + urlencode(query_dict))
+
 def main(argv):
     print('I have started')
-    url = "https://www.snopes.com/?s=i+guess+we+finally+ran+out+of+microchips"
-    soup = grab_links(url)
+    query_str = 'I guess we ran out of microchips'
+    snopes_url = "https://www.snopes.com/"
+    query = snopes_url + generate_query_url(query_str)
+    print(query)
 
-    list_of_links = grab_links(url)
+    list_of_links = grab_links(query)
 
     print(list_of_links)
 
