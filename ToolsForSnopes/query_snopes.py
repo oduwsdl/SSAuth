@@ -4,10 +4,10 @@ from bs4 import SoupStrainer as ss
 import requests
 from urllib.parse import urlencode
 
-# Function to generate encoded query from a string
+# Function to generate encoded query url from a string
 def generate_query_url(snopes_query):
     query_dict = {'s': snopes_query}
-    return ('?' + urlencode(query_dict))
+    return ('https://www.snopes.com/?' + urlencode(query_dict))
 
 # Function to grab all links from a query url that are fact checks
 def grab_links(query_url):
@@ -39,8 +39,7 @@ def grab_rating(article_url):
 
 def main(argv):
     query_str = 'trump twitter'
-    snopes_url = "https://www.snopes.com/"
-    query = snopes_url + generate_query_url(query_str)
+    query = generate_query_url(query_str)
     print(query)
 
     list_of_links = grab_links(query)
@@ -49,8 +48,6 @@ def main(argv):
     for link in list_of_links:
         print(link)
         print(grab_rating(link))
-
-
 
 
 if __name__ == "__main__":
