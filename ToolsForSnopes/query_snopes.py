@@ -3,7 +3,6 @@ import sys
 from bs4 import SoupStrainer as ss
 import requests
 from urllib.parse import urlencode
-import re
 
 # Function to generate encoded query from a string
 def generate_query_url(snopes_query):
@@ -18,8 +17,11 @@ def grab_links(query_url):
     html_text = html.text
     soup = bs(html_text, "html.parser", parse_only=only_links)
     list_of_links = []
+    fact_check_url = 'https://www.snopes.com/fact-check/'
     for link in soup.find_all('a'):
-        list_of_links.append(link.get('href'))
+        url = link.get('href')
+        if url[:34] == fact_check_url:
+            list_of_links.append(url)
     
     return list_of_links
 
@@ -36,16 +38,12 @@ def grab_rating(article_url):
 
 def main(argv):
     print('I have started')
-    query_str = 'trump tweet'
+    query_str = 'trump twitter'
     snopes_url = "https://www.snopes.com/"
     query = snopes_url + generate_query_url(query_str)
     print(query)
 
     list_of_links = grab_links(query)
-
-    fact_check_url = 'https://www.snopes.com/fact-check/'
-
-    list_of_links = [link for link in list_of_links if link[:34] == fact_check_url]
 
     print(list_of_links)
     for link in list_of_links:
