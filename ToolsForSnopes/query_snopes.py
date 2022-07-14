@@ -9,13 +9,14 @@ def generate_query_url(snopes_query):
     query_dict = {'s': snopes_query}
     return ('?' + urlencode(query_dict))
 
-# Function to 
+# Function to grab all links from a query url that are fact checks
 def grab_links(query_url):
-    # Setup bs object
+    # Make request, setup bs object
     only_links = ss('a', class_="link")
     html = requests.get(query_url)
     html_text = html.text
     soup = bs(html_text, "html.parser", parse_only=only_links)
+    # Create list with links to all fact check articles found
     list_of_links = []
     fact_check_url = 'https://www.snopes.com/fact-check/'
     for link in soup.find_all('a'):
@@ -25,19 +26,18 @@ def grab_links(query_url):
     
     return list_of_links
 
+# Given a url for a fact check article, returns the truth rating from it
 def grab_rating(article_url):
-    print('grabbing rating')
+    # Make request, setup bs object
     rating_strainer = ss(class_ = ['figure-image img-responsive img-fluid w-100 Media--image', 'figure-image img-responsive img-fluid w-100'])
     html = requests.get(article_url)
     html_text = html.text
     soup = bs(html_text, 'html.parser', parse_only = rating_strainer)
-    print(soup.prettify())
+    # Grab and return the truth rating from the article
     tag = soup.img
-
     return tag.get('alt')
 
 def main(argv):
-    print('I have started')
     query_str = 'trump twitter'
     snopes_url = "https://www.snopes.com/"
     query = snopes_url + generate_query_url(query_str)
