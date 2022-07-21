@@ -37,6 +37,10 @@ def grab_rating(article_url):
     tag = soup.img
     return tag.get('alt')
 
+def generate_snopes_query(tweet_text):
+    snopes_query = tweet_text[:99]
+    return generate_query_url(snopes_query)
+
 def main(argv):
     query_str = 'trump twitter'
     query = generate_query_url(query_str)
