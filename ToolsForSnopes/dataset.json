@@ -1,0 +1,571 @@
+{
+    "Snopes Articles": {
+        "Article #":{
+            "URL": "Link",
+            "Supposed author": "Author",
+            "Tweet body": "Body",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            }
+        },
+        "Article 1":{
+            "URL": "https://www.snopes.com/fact-check/donald-trump-fake-tweet/",
+            "Supposed author": "Donald Trump",
+            "Tweet body": "My grandparents didn't come to America all the way from Germany to see it get taken over by immigrants. Not on my watch. #TrumpForPresident",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            }
+        },
+        "Article 2":{
+            "URL": "https://www.snopes.com/fact-check/donald-trump-terrorism-tweet/",
+            "Supposed author": "Donald Trump",
+            "Tweet body": "Appreciate the congrats for being right on radical Islamic terrorism, I don't want congrats, I want toughness & vigilance. We must be smart!",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google substitution query": {
+                "Reciprocal rank:": 0,
+                "Precision at 1": 0
+            }
+        },
+        "Article 3":{
+            "URL": "https://www.snopes.com/fact-check/donald-trump-called-canadians-snow-mexicans/",
+            "Supposed author": "Donald Trump",
+            "Tweet body": "I wish someone would call Canadians what they are: Snow Mexicans",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.5,
+                "Precision at 1": 0
+            }
+        },
+        "Article 4":{
+            "URL": "https://www.snopes.com/fact-check/cruz-beyonce-deport-tweet/",
+            "Supposed author": "Ted Cruz",
+            "Tweet body": "Americans won't stand for your anti-White, racist performance @Beyonce. You will no longer be a part of this country under my presidency",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google substitution query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            }
+        },
+        "Article 5":{
+            "URL": "https://www.snopes.com/fact-check/jk-rowling-tweet-abortions/",
+            "Supposed author": "J.K Rowling",
+            "Tweet body": "If you American birds could keep your legs closed then maybe you wouldn't need abortions in the first place? ",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.5,
+                "Precision at 1": 0
+            }
+        },
+        "Article 6":{
+            "URL": "https://www.snopes.com/fact-check/sanders-dethrone-god-tweet/",
+            "Supposed author": "Bernie Sanders",
+            "Tweet body": "My object in life is to dethrone God and destroy capitalism",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1 
+            },
+            "Google query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            }
+        },
+        "Article 7":{
+            "URL": "https://www.snopes.com/fact-check/andrew-yang-old-york/",
+            "Supposed author": "Andrew Yang",
+            "Tweet body": "Why do we call it New York? There isn't an Old York. It should just be York.",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            }
+        },
+        "Article 8":{
+            "URL": "https://www.snopes.com/fact-check/romney-fake-tweet/",
+            "Supposed author": "Mitt Romney",
+            "Tweet body": "Watching the Academy Awards tonight both Ann and I were shocked Dr. Jill Biden didn't get a statue for her portrayal of an Alzheimer's care giver posing as a loving wife. She was robbed.",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            }
+        },
+        "Article 9":{
+            "URL": "https://www.snopes.com/fact-check/fake-aoc-purge-tweet/",
+            "Supposed author": "Alexandria Ocasio-Cortez",
+            "Tweet body": "Congrats to President Joe Biden. Now let’s begin ‘The Purge’ to roundup all Conservative traitors! Democrats, let’s make Auschwitz look like a picnic!",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.2,
+                "Precision at 1": 0
+            }
+        },
+        "Article 10":{
+            "URL": "https://www.snopes.com/fact-check/republican-impeached-clinton-scandal/",
+            "Supposed author": "Will McAvoy",
+            "Tweet body": "Reminder: Every Republican Speaker of the House who oversaw the impeachment of Bill Clinton has now been found to be a part of a sex scandal",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.5,
+                "Precision at 1": 0
+            }
+        },
+        "Article 11":{
+            "URL": "https://www.snopes.com/fact-check/texas-governor-tweet-rapist/",
+            "Supposed author": "Greg Abbott",
+            "Tweet body": "This disgusting rape isn't tolerated in Texas. We won't deport him, just to have him return. Instead, he'll spend the next 244 years in jail-- which means life. It won't be a pleasant stay.  #txlege  http://bbc-edition.com/2019/02/03/illegal-immigrant-raped-his-one-month-old-daughter-left-her-with-45-broken-bones-please-deport-all-illegal-immigrant/",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            }
+        },
+        "Article 12":{
+            "URL": "https://www.snopes.com/fact-check/trump-sends-unpresidented-tweet/",
+            "Supposed author": "Donald Trump",
+            "Tweet body": "China steals United States Navy research drone in international waters - rips it out of water and takes it to China in unpresidented act.",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            }
+        },
+        "Article 13":{
+            "URL": "https://www.snopes.com/fact-check/clinton-to-drop-out-twitter/",
+            "Supposed author": "Hannah Chanpong",
+            "Tweet body": "Source inside Clint. camp: \"Staff resigning & worries of H dropping out\" after FBI release",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google substitution query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            }
+        },
+        "Article 14":{
+            "URL": "https://www.snopes.com/fact-check/elon-musk-donald-trump-dumbass/",
+            "Supposed author": "Elon Musk",
+            "Tweet body": "I'm from South Africa, you dumbass.",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            }
+        },
+        "Article 15":{
+            "URL": "https://www.snopes.com/fact-check/trump-tweet-harris/",
+            "Supposed author": "Donald Trump",
+            "Tweet body": "KARMALA what the hell is that name anyway??? Sounds like a terrorist! Not EVEN American!! Need birth certificate! When Obama was president, he allowed 9/11. We can't LET that happen again!!!",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Shortened Google query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google substitution query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 1
+            }
+        },
+        "Article 16":{
+            "URL": "https://www.snopes.com/fact-check/giuliani-sex-animals-covid/",
+            "Supposed author": "Rudy Giuliani",
+            "Tweet body": "I think it's highly likely that all these people that have contracted the China Virus got it from having sex with barnyard animals.",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.33,
+                "Precision at 1": 0
+            }
+        },
+        "Article 17":{
+            "URL": "https://www.snopes.com/fact-check/marjorie-taylor-greene-woman-choice/",
+            "Supposed author": "Marjorie Taylor Greene",
+            "Tweet body": "The greatest choice a woman can make is becoming a mother.",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            }
+        },
+        "Article 18":{
+            "URL": "https://www.snopes.com/fact-check/fake-obama-tweet/",
+            "Supposed author": "Barack Obama",
+            "Tweet body": "I think most Americans would agree that I'm a level-headed individual, not a man who's prone to indulging in conspiracy theories. I've certainly had a fair number directed at me. But has anyone checked to make sure Donald Trump doesn't have a Russian birth certificate?",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Truncated Google query": {
+                "Reciprocal rank": 0.5,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.5,
+                "Precision at 1": 0
+            }
+        },
+        "Article 19":{
+            "URL": "https://www.snopes.com/fact-check/mike-pence-tweet/",
+            "Supposed author": "Mike Pence",
+            "Tweet body": "Peaceful protest is the right of every American but this attack on our Capitol will not be tolerated and those involved will be prosecuted to the fullest extent of the law.",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.14,
+                "Precision at 1": 0
+            }
+        },
+        "Article 20":{
+            "URL": "https://www.snopes.com/fact-check/2009-trump-tweet-pandemic/",
+            "Supposed author": "Donald Trump",
+            "Tweet body": "Obama's handling of this whole pandemic has been terrible! As President, ALL responsibility becomes yours during a crisis like this, whether or not you're entirely to blame. John McCain, and for that matter myself, would never let thousands of Americans die from a pandemic while in office.",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Truncated Google query": {
+                "Reciprocal rank": 0.33,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.33,
+                "Precision at 1": 0
+            }
+        },
+        "Article 21":{
+            "URL": "https://www.snopes.com/fact-check/did-aoc-say-this-about-trump/",
+            "Supposed author": "Alexandria Ocasio-Cortez",
+            "Tweet body": "If someone told me 3 years ago, while I was waitressing to help my family stay afloat, that in a few short years an unhinged President of the United States would be repeatedly saying my name at the 2020 debate, I would've brought them some water and told them to sober up.",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Truncated Google query": {
+                "Reciprocal rank": 0.5,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.5,
+                "Precision at 1": 0
+            }
+        },
+        "Article 22":{
+            "URL": "https://www.snopes.com/fact-check/neil-degrasse-tyson-vax-tweet/",
+            "Supposed author": "Neil DeGrasse Tyson",
+            "Tweet body": "In case anyone is curious... Right now in the USA, every ten days, more than 8,000 (unvaccinated) Republican voters are dying of COVID-19. That's 5X the rate for Democrats.",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            }
+        },
+        "Article 23":{
+            "URL": "https://www.snopes.com/fact-check/halyna-hutchins-tweet-clinton/",
+            "Supposed author": "Halyna Hutchins",
+            "Tweet body": "I have information that will lead to Hillary Clinton’s arrest.",
+            "Snopes query": {
+                "Reciprocal rank": 0.5,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.13,
+                "Precision at 1": 0
+            }
+        },
+        "Article 24":{
+            "URL": "https://www.snopes.com/fact-check/the-onion-banned-on-twitter/",
+            "Supposed author": "The Onion",
+            "Tweet body": "The Onion has been banned from Twitter, follow us on Twitter for more updates.",
+            "Snopes query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.5,
+                "Precision at 1": 0
+            }
+        },
+        "Article 25":{
+            "URL": "Link",
+            "Supposed author": "Dean Browning",
+            "Tweet body": "I'm a black gay guy and I can personally say that Obama did nothing for me, my life only changed a little bit and it was for the worse. Everything is so much better under Trump though. I feel respected - which I never do when democrats are involved",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.2,
+                "Precision at 1": 0
+            }
+        },
+        "Article 26":{
+            "URL": "https://www.snopes.com/fact-check/trump-tweet-echo-mein-kampf/",
+            "Supposed author": "Donald Trump",
+            "Tweet body": "There is nothing that I would want more for our Country than true FREEDOM OF THE PRESS. The fact is that the Press is FREE to write and say anything it wants, but much of what it says is FAKE NEWS, pushing a political agenda or just plain trying to hurt people. HONESTY WINS!",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Truncated Google query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            }
+        },
+        "Article 27":{
+            "URL": "https://www.snopes.com/fact-check/ted-cruz-australia/",
+            "Supposed author": "Ted Cruz",
+            "Tweet body": "Dems are power-drunk authoritarian kill-joys. Washington State: NO DANCING ALLOWED!!! Any rational & free citizen: Piss off.",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.25,
+                "Precision at 1": 0
+            }
+        },
+        "Article 28":{
+            "URL": "https://www.snopes.com/fact-check/biden-tweet-pandemic/",
+            "Supposed author": "Joe Biden",
+            "Tweet body": "We are not prepared for a pandemic. Trump has rolled back progress President Obama and I made to strengthen global health security. We need leadership that builds public trust, focuses on real threats, and mobilizes the world to stop outbreaks before they reach our shores.",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Truncated Google query": {
+                "Reciprocal rank": 0.14,
+                "Precision at 1": 0
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.13,
+                "Precision at 1": 0
+            }
+        },
+        "Article 29":{
+            "URL": "https://www.snopes.com/fact-check/un-gender-equality-tweet/",
+            "Supposed author": "U.N. Women",
+            "Tweet body": "Top 10 countries that have achieved gender equality: 1.2.3.4.5.6.7.8.9.10.There are none.",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.5,
+                "Precision at 1": 0
+            }
+        },
+        "Article 30":{
+            "URL": "https://www.snopes.com/fact-check/greg-abbott-urged-texans-gun-purchases/",
+            "Supposed author": "Greg Abbott",
+            "Tweet body": "I'm EMBARRASSED: Texas #2 in nation for new gun purchases, behind CALIFORNIA. Let's pick up the pace Texans @NRA",
+            "Snopes query": {
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query (site:snopes.com)":{
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Google query": {
+                "Reciprocal rank": 0.33,
+                "Precision at 1": 0
+            }
+        }
+    }
+}   
