@@ -3,6 +3,7 @@ import sys
 from bs4 import SoupStrainer as ss
 import requests
 from urllib.parse import urlencode
+import string
 
 # Function to generate encoded query url from a string
 def generate_query_url(snopes_query):
@@ -38,7 +39,14 @@ def grab_rating(article_url):
     return tag.get('alt')
 
 def generate_snopes_query(tweet_text):
-    snopes_query = tweet_text[:99]
+    if len(tweet_text) < 99:
+        snopes_query = tweet_text
+    else:
+        snopes_query = tweet_text[:99]
+        if tweet_text[99] not in string.whitespace:
+            index = snopes_query.rfind(" ")
+            snopes_query = snopes_query[:index]
+    print(snopes_query)
     return generate_query_url(snopes_query)
 
 def main(argv):
@@ -52,6 +60,8 @@ def main(argv):
     for link in list_of_links:
         print(link)
         print(grab_rating(link))
+    tweet = "Watching the Academy Awards tonight both Ann and I were shocked Dr. Jill Biden didn't get a statue for her portrayal of an Alzheimer's care giver posing as a loving wife. She was robbed."
+    generate_snopes_query(tweet)
 
 
 if __name__ == "__main__":
