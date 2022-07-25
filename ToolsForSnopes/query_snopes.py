@@ -4,6 +4,7 @@ from bs4 import SoupStrainer as ss
 import requests
 from urllib.parse import urlencode
 import string
+import codecs
 
 # Function to generate encoded query url from a string
 def generate_query_url(snopes_query):
@@ -50,8 +51,16 @@ def generate_snopes_query(tweet_text):
     return generate_query_url(snopes_query)
 
 def main(argv):
-    query_str = 'trump twitter'
-    query = generate_query_url(query_str)
+    if(len(sys.argv) != 2):
+        print("Incorrect number of arguments; please provide only path to input file")
+    # Open input file
+    try:
+        f = codecs.open(sys.argv[1], 'r', 'utf-8"')
+        query_str = f.read()
+    except FileNotFoundError:
+        print('Please provide an input file that exists')
+        sys.exit(1)
+    query = generate_snopes_query(query_str)
     print(query)
 
     list_of_links = grab_links(query)
@@ -60,8 +69,6 @@ def main(argv):
     for link in list_of_links:
         print(link)
         print(grab_rating(link))
-    tweet = "Watching the Academy Awards tonight both Ann and I were shocked Dr. Jill Biden didn't get a statue for her portrayal of an Alzheimer's care giver posing as a loving wife. She was robbed."
-    generate_snopes_query(tweet)
 
 
 if __name__ == "__main__":
