@@ -40,35 +40,43 @@ def grab_rating(article_url):
     return tag.get('alt')
 
 def generate_snopes_query(tweet_text):
+    # Don't truncate if tweet is already less than 99 chars
     if len(tweet_text) < 99:
         snopes_query = tweet_text
+    # Truncate the tweet
     else:
         snopes_query = tweet_text[:99]
         if tweet_text[99] not in string.whitespace:
             index = snopes_query.rfind(" ")
             snopes_query = snopes_query[:index]
-    print(snopes_query)
+    # Return query as a url
     return generate_query_url(snopes_query)
 
 def main(argv):
-    if(len(sys.argv) != 2):
-        print("Incorrect number of arguments; please provide only path to input file")
     # Open input file
     try:
         f = codecs.open(sys.argv[1], 'r', 'utf-8"')
         query_str = f.read()
     except FileNotFoundError:
-        print('Please provide an input file that exists')
+        print('Please provide a valid input file as an argument')
+        sys.exit(1)
+    except IndexError:
+        print("Please provide a valid input file as an argument")
         sys.exit(1)
     query = generate_snopes_query(query_str)
-    print(query)
-
+    
     list_of_links = grab_links(query)
 
-    print(list_of_links)
-    for link in list_of_links:
-        print(link)
-        print(grab_rating(link))
+    if len(list_of_links) == 0:
+        print('No articles queried')
+    elif len(list_of_links) == 1:
+        print('Article found at URL: ' + list_of_links[0])
+        print("Truth rating: " + grab_rating(list_of_links[0]))
+    else:
+        print('Multiple articles found: ')
+        for link in list_of_links:
+            print('Article queried: ' + link)
+            print('Truth rating: ' + grab_rating(link))
 
 
 if __name__ == "__main__":
