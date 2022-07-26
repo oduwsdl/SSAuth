@@ -40,3 +40,4 @@ jobs:
       run: |
         python -m pytest ToolsForPolitwoops/test_query.py
         python -m pytest ToolsForPolitwoops/test_check_user.py
+        python -m pytest ToolsForSnopes/test_query_snopes.py
