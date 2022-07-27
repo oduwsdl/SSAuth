@@ -6,11 +6,6 @@ from urllib.parse import urlencode
 import string
 import codecs
 
-# Function to generate encoded query url from a string
-def generate_query_url(snopes_query):
-    query_dict = {'s': snopes_query}
-    return ('https://www.snopes.com/?' + urlencode(query_dict))
-
 # Function to grab all links from a query url that are fact checks
 def grab_links(query_url):
     # Make request, setup bs object
@@ -39,6 +34,11 @@ def grab_rating(article_url):
     tag = soup.img
     return tag.get('alt')
 
+# Function to generate encoded query url from a string
+def generate_query_url(snopes_query):
+    query_dict = {'s': snopes_query}
+    return ('https://www.snopes.com/?' + urlencode(query_dict))
+
 def generate_snopes_query(tweet_text):
     # Don't truncate if tweet is already less than 99 chars
     if len(tweet_text) < 99:
@@ -64,17 +64,17 @@ def main(argv):
         print("Please provide a valid input file as an argument")
         sys.exit(1)
     query = generate_snopes_query(query_str)
-    
-    list_of_links = grab_links(query)
-
-    if len(list_of_links) == 0:
+    # Grab all links from query
+    links = grab_links(query)
+    # Output url and rating of every article found
+    if len(links) == 0:
         print('No articles queried')
-    elif len(list_of_links) == 1:
-        print('Article found at URL: ' + list_of_links[0])
-        print("Truth rating: " + grab_rating(list_of_links[0]))
+    elif len(links) == 1:
+        print('Article found at URL: ' + links[0])
+        print("Truth rating: " + grab_rating(links[0]))
     else:
         print('Multiple articles found: ')
-        for link in list_of_links:
+        for link in links:
             print('Article queried: ' + link)
             print('Truth rating: ' + grab_rating(link))
 

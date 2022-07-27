@@ -59,11 +59,7 @@ def grab_rating(article_url):
 
 
 def main(argv):
-    # print('hello')
-    # list_of_links = grab_links('https://www.reuters.com/search/news?sortBy=&dateRange=&blob=fake+tweet')
-    # print(list_of_links)
-    # print(generate_reuters_query('It’s time I confess; The Apollo 11 missions, which landed man for the first time on the moon, was staged, none of it was real.'))
-    # print(grab_rating("https://www.reuters.com/article/idUSL1N2SN1UL"))
+    # Open input file
     try:
         f = codecs.open(sys.argv[1], 'r', 'utf-8"')
         query_str = f.read()
@@ -74,9 +70,9 @@ def main(argv):
         print("Please provide a valid input file as an argument")
         sys.exit(1)
     query = generate_reuters_query(query_str)
-    
+    # Grab all links from query
     links = grab_links(query)
-
+    # Output url and verdict of each article found
     if len(links) == 0:
         print('No articles queried')
     elif len(links) == 1:
