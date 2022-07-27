@@ -25,12 +25,15 @@ def generate_reuters_query(tweet_text):
             reuters_query = reuters_query[:index]
     return generate_query_url(reuters_query)
 
-
+# Function to get all links to fact check articles from a query url
 def grab_links(query_url):
+    # Make request, setup bs object
     search_results = ss('h3', class_='search-result-title')
     html = requests.get(query_url)
     html_text = html.text
     soup = bs(html_text, 'html.parser', parse_only=search_results)
+
+    # Grab all links from results that are fact check articles
     list_of_links = []
     for link in soup.find_all('a'):
         url = link.get('href')
@@ -39,14 +42,16 @@ def grab_links(query_url):
 
     return list_of_links
 
+# Function to grab the verdict rating of a Reuters article given its url
 def grab_rating(article_url):
+    # Make request, setup bs object
     only_verdict = ss(class_=['Paragraph-paragraph-2Bgue ArticleBody-para-TD_9x', 'Headline-headline-2FXIq Headline-black-OogpV ArticleBody-heading-3h695'])
     html = requests.get(article_url)
     html_text = html.text
     soup = bs(html_text, 'html.parser', parse_only=only_verdict)
+    # Search text for the verdict
     text = soup.get_text()
     verdict = re.search(r'\b\w*VERDICT\w*\b', text)
-
     if verdict:
         return verdict.group()[7:]
     return "No verdict found???"
@@ -59,6 +64,8 @@ def main(argv):
     # print(list_of_links)
     # print(generate_reuters_query('It’s time I confess; The Apollo 11 missions, which landed man for the first time on the moon, was staged, none of it was real.'))
     print(grab_rating("https://www.reuters.com/article/idUSL1N2SN1UL"))
+
+    
 
 if __name__ == "__main__":
     main(sys.argv[1:])
