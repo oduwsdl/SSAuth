@@ -5,20 +5,14 @@ import requests
 from urllib.parse import urlencode
 import string
 import codecs
-
-# url = requests.get('https://www.reuters.com/search/news?sortBy=&dateRange=&blob=fake+tweet')
-# html_text = url.text
-# strainer = ss('h3', class_='search-result-title')
-# soup = bs(html_text, 'html.parser', parse_only=strainer)
-# for link in soup.find_all('a'):
-#     print('reuters.com' + link.get('href'))
+import re
 
 # Function to generate encoded query url from a string
 def generate_query_url(reuters_query):
     query_dict = {'blob': reuters_query}
     return ('https://reuters.com/search/news?' + urlencode(query_dict))
 
-
+# Function to generate truncated query url without cutting off words from tweet_text
 def generate_reuters_query(tweet_text):
     # Don't truncate if tweet is already less than 99 chars
     if len(tweet_text) < 126:
@@ -45,12 +39,26 @@ def grab_links(query_url):
 
     return list_of_links
 
+def grab_rating(article_url):
+    only_verdict = ss(class_=['Paragraph-paragraph-2Bgue ArticleBody-para-TD_9x', 'Headline-headline-2FXIq Headline-black-OogpV ArticleBody-heading-3h695'])
+    html = requests.get(article_url)
+    html_text = html.text
+    soup = bs(html_text, 'html.parser', parse_only=only_verdict)
+    text = soup.get_text()
+    verdict = re.search(r'\b\w*VERDICT\w*\b', text)
+
+    if verdict:
+        return verdict.group()[7:]
+    return "No verdict found???"
+
+
+
 def main(argv):
     # print('hello')
     # list_of_links = grab_links('https://www.reuters.com/search/news?sortBy=&dateRange=&blob=fake+tweet')
     # print(list_of_links)
-    print(generate_reuters_query('It’s time I confess; The Apollo 11 missions, which landed man for the first time on the moon, was staged, none of it was real.'))
-
+    # print(generate_reuters_query('It’s time I confess; The Apollo 11 missions, which landed man for the first time on the moon, was staged, none of it was real.'))
+    print(grab_rating("https://www.reuters.com/article/idUSL1N2SN1UL"))
 
 if __name__ == "__main__":
     main(sys.argv[1:])
