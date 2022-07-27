@@ -63,7 +63,30 @@ def main(argv):
     # list_of_links = grab_links('https://www.reuters.com/search/news?sortBy=&dateRange=&blob=fake+tweet')
     # print(list_of_links)
     # print(generate_reuters_query('It’s time I confess; The Apollo 11 missions, which landed man for the first time on the moon, was staged, none of it was real.'))
-    print(grab_rating("https://www.reuters.com/article/idUSL1N2SN1UL"))
+    # print(grab_rating("https://www.reuters.com/article/idUSL1N2SN1UL"))
+    try:
+        f = codecs.open(sys.argv[1], 'r', 'utf-8"')
+        query_str = f.read()
+    except FileNotFoundError:
+        print('Please provide a valid input file as an argument')
+        sys.exit(1)
+    except IndexError:
+        print("Please provide a valid input file as an argument")
+        sys.exit(1)
+    query = generate_reuters_query(query_str)
+    
+    links = grab_links(query)
+
+    if len(links) == 0:
+        print('No articles queried')
+    elif len(links) == 1:
+        print('Article found at URL: ' + links[0])
+        print("Truth rating: " + grab_rating(links[0]))
+    else:
+        print('Multiple articles found: ')
+        for link in links:
+            print('Article queried: ' + link)
+            print('Truth rating: ' + grab_rating(link))
 
     
 
