@@ -1,0 +1,245 @@
+{
+    "Reuters Articles": {
+        "Article 1": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2SN1UL",
+            "Query URL": "https://reuters.com/search/news?blob=Lies+lies+we+are+fine+here+in+SA+no+variant+nothing.+Unemployment+rate+is+at+40%25%2C+petrol+price+at+%242+a+Litre.+Poverty+and",
+            "Supposed author": "Prime Minister of South Africa",
+            "Tweet body": "Lies lies we are fine here in SA no variant nothing. Unemployment rate is at 40%, petrol price at $2 a Litre. Poverty and unemployment are the major pandemics here not this covid thing...",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 2": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2T21XM",
+            "Query URL": "https://reuters.com/search/news?blob=It%E2%80%99s+time+I+confess%3B+The+Apollo+11+missions%2C+which+landed+man+for+the+first+time+on+the+moon%2C+was+staged%2C+none+of+it+was",
+            "Supposed author": "Buzz Aldrin",
+            "Tweet body": "It’s time I confess; The Apollo 11 missions, which landed man for the first time on the moon, was staged, none of it was real.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 3": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2TQ2E5",
+            "Query URL": "https://reuters.com/search/news?blob=McDonald%E2%80%99s+will+not+hire+any+individuals+that+have+held%2C+traded+or+sold+cryptocurrencies.",
+            "Supposed author": "McDonalds",
+            "Tweet body": "McDonald’s will not hire any individuals that have held, traded or sold cryptocurrencies.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 4": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2XN21S",
+            "Query URL": "https://reuters.com/search/news?blob=Guns+have+to+go%21+It%E2%80%99s+time+to+ban+gun+ownership+across+the+board.+When+I+am+elected+president%2C+I+will+have+every+single+gun",
+            "Supposed author": "Beto O'Rourke",
+            "Tweet body": "Guns have to go! It’s time to ban gun ownership across the board. When I am elected president, I will have every single gun removed from private citizen ownership! FOR THE CHILDREN! #RepealTheSecondAmendment #BanAllGuns",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 5": {
+            "Article URL": "https://www.reuters.com/article/idUSL2N2WA1NW",
+            "Query URL": "URL",
+            "Supposed author": "Pete Butttigieg",
+            "Tweet body": "Time for “therapy”!!!",
+            "Reciprocal rank": 0,
+            "Precision at 1": 0
+        },
+        "Article 6": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2XQ268",
+            "Query URL": "https://reuters.com/search/news?blob=It%E2%80%99s+time+for+Justice%21+I+will+share+irrefutable+evidence+how+and+why+the+COVID+vaccines+are+harming+and+killing+people.",
+            "Supposed author": "Rand Paul",
+            "Tweet body": "It’s time for Justice! I will share irrefutable evidence how and why the COVID vaccines are harming and killing people. Prepare for the Real Storm! I need you to help me - Share this post with everyone you (know),",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 7": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2U029K",
+            "Query URL": "https://reuters.com/search/news?blob=Great+result%2C+from+the+children%E2%80%99s+roll-out%2C+only+3+deaths+linked+and+106+adverse+reactions+out+of+377000+vaccines.+I+would",
+            "Supposed author": "Dr. Kerry Chant",
+            "Tweet body": "Great result, from the children’s roll-out, only 3 deaths linked and 106 adverse reactions out of 377000 vaccines. I would say that is a better result than expected. Make sure you get your children’s vaccine before school starts.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 8": {
+            "Article URL": "https://www.reuters.com/article/idUSL2N2W31AK",
+            "Query URL": "https://reuters.com/search/news?blob=I+think+most+Americans+would+agree+that+I%E2%80%99m+a+level-headed+individual%2C+not+a+man+who%E2%80%99s+prone+to+indulging+in+conspiracy",
+            "Supposed author": "Barack Obama",
+            "Tweet body": "I think most Americans would agree that I’m a level-headed individual, not a man who’s prone to indulging in conspiracy theories. I’ve certainly had a fair number directed at me. But has anyone checked to make sure Donald Trump doesn’t have a Russian birth certificate?",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 9": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2UK2AJ",
+            "Query URL": "https://reuters.com/search/news?blob=Congratulations+to+our+brave+Ottawa+Police+officers+for+their+courage+and+sacrifice+during+the+successful+raid+on+the",
+            "Supposed author": "Ottawa Police",
+            "Tweet body": "Congratulations to our brave Ottawa Police officers for their courage and sacrifice during the successful raid on the terrorist trucker convoy this evening. By keeping these vital supplies out of the hands of those racist truckers, we are one step closer to shutting down their platform of hate forever.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 10": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2Q51ZF",
+            "Query URL": "https://reuters.com/search/news?blob=I+saw+people+are+rushing+out+to+fill+up+their+cars+for+this+hurricane+at+the+gas+station+This+wouldn%E2%80%99t+be+an+issue+if+they",
+            "Supposed author": "AOC",
+            "Tweet body": "I saw people are rushing out to fill up their cars for this hurricane at the gas station This wouldn’t be an issue if they had electric cars. If the power is out for a week how are they going to get gas? We need to start planning ahead and moving forward.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 11": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2MU2I8",
+            "Query URL": "https://reuters.com/search/news?blob=It%E2%80%99s+so+wrong+of+Archbishop+Salvatore+Cordileone+to+deny+President+Biden+and+Speaker+Pelosi+Holy+Communion+because+they",
+            "Supposed author": "Chelsea Clinton",
+            "Tweet body": "It’s so wrong of Archbishop Salvatore Cordileone to deny President Biden and Speaker Pelosi Holy Communion because they support a woman’s God given right to choose. If Jesus were alive today he’d be working at Planned Parenthood. Read your Bible Father.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 12": {
+            "Article URL": "https://www.reuters.com/article/idUSL2N2NW1HD",
+            "Query URL": "https://reuters.com/search/news?blob=This+might+be+the+best+bat+soup+I+ever+had+in+my+life.+Someday+everyone%E2%80%99s+gonna+be+talking+about+Wuhan.",
+            "Supposed author": "Anthony Bourdain",
+            "Tweet body": "This might be the best bat soup I ever had in my life. Someday everyone’s gonna be talking about Wuhan.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 13": {
+            "Article URL": "https://www.reuters.com/article/idUSL2N2NR26L",
+            "Query URL": "https://reuters.com/search/news?blob=Is+this+supposed+to+be+funny%3F+It+isn%E2%80%99t.+Grow+up+people%21%21%21",
+            "Supposed author": "Chelsea Clinton",
+            "Tweet body": "Is this supposed to be funny? It isn’t. Grow up people!!!",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 14": {
+            "Article URL": "https://www.reuters.com/article/idUSL2N2NE2LR",
+            "Query URL": "https://reuters.com/search/news?blob=Lesson+Number+Two+From+Racial+Rehab+today.+Just+because+your+skin+IS+white+doesn%E2%80%99t+mean+you+have+to+BE+white.+%23wordsofwisdom",
+            "Supposed author": "Chelsea Clinton",
+            "Tweet body": "Lesson Number Two From Racial Rehab today. Just because your skin IS white doesn’t mean you have to BE white. #wordsofwisdom",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 15": {
+            "Article URL": "https://www.reuters.com/article/idUSL6E8IRKVX20120727",
+            "Query URL": "https://reuters.com/search/news?blob=The+Olympic+village+is+filled+with+barefoot+Greek+athletes.+As+soon+as+we+see+them+we+are+afraid+that+they+will+ask+us+for",
+            "Supposed author": "Natascha Keller",
+            "Tweet body": "The Olympic village is filled with barefoot Greek athletes. As soon as we see them we are afraid that they will ask us for loans",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1,
+            "Verdict not found by script": true
+        },
+        "Article 16": {
+            "Article URL": "https://www.reuters.com/article/idUSKBN29J2E1",
+            "Query URL": "https://reuters.com/search/news?blob=Congrats+to+President+Joe+Biden.+Now+let%E2%80%99s+begin+%E2%80%9CThe+Purge%E2%80%9D+to+roundup+all+Conservative+traitors%21+Democrats%2C+let%E2%80%99s+make",
+            "Supposed author": "AOC",
+            "Tweet body": "Congrats to President Joe Biden. Now let’s begin “The Purge” to roundup all Conservative traitors! Democrats, let’s make Auschwitz look like a picnic!",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 17": {
+            "Article URL": "https://www.reuters.com/article/idUSKCN26C1X7",
+            "Query URL": "https://reuters.com/search/news?blob=I+have+information+that+will+lead+to+the+arrest+of+Hillary+Clinton.",
+            "Supposed author": "Ruth Bader Ginsberg",
+            "Tweet body": "I have information that will lead to the arrest of Hillary Clinton.",
+            "Reciprocal rank": 0.2,
+            "Precision at 1": 0
+        },
+        "Article 18": {
+            "Article URL": "https://www.reuters.com/article/idUSKBN2AJ2HH",
+            "Query URL": "https://reuters.com/search/news?blob=I%E2%80%99ll+believe+in+climate+change+when+Texas+freezes+over.",
+            "Supposed author": "Ted Cruz",
+            "Tweet body": "I’ll believe in climate change when Texas freezes over.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 19": {
+            "Article URL": "https://www.reuters.com/article/idUSKBN24B2RB",
+            "Query URL": "https://reuters.com/search/news?blob=The+fake+news+wants+you+to+believe+I+knew+Ghislane+Maxwell%2CI+never+met+her%2Cdidn%E2%80%99t+know+Epstein%2Cmore+presidential+harassment+%26",
+            "Supposed author": "Donald Trump",
+            "Tweet body": "The fake news wants you to believe I knew Ghislane Maxwell,I never met her,didn’t know Epstein,more presidential harassment & another hoax by the democrats.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 20": {
+            "Article URL": "https://www.reuters.com/article/idUSKBN24A25L",
+            "Query URL": "https://reuters.com/search/news?blob=Thank+you+to+the+Great+people+of+South+Dakota.+The+state+is+doing+a+tremendous+job+with+the+coronavirus.+I+told+the+governor",
+            "Supposed author": "Donald Trump",
+            "Tweet body": "Thank you to the Great people of South Dakota. The state is doing a tremendous job with the coronavirus. I told the governor that everyone is fine without a mask. They just need to keep there (sic) border with California closed! That state is full of LOSERS!",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 21": {
+            "Article URL": "https://www.reuters.com/article/idUSKBN20P340",
+            "Query URL": "https://reuters.com/search/news?blob=If+the+Dow+Joans+ever+falls+more+than+1000+%27points%27+in+a+single+day%2C+the+president+should+be+%27loaded%27+into+a+very+big+cannon",
+            "Supposed author": "Donald Trump",
+            "Tweet body": "If the Dow Joans ever falls more than 1000 'points' in a single day, the president should be 'loaded' into a very big cannon and shot into the sun at tremendous speed. No excuses.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 22": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2YT0VU",
+            "Query URL": "https://reuters.com/search/news?blob=I+want+to+say+one+thing+to+the+American+people.+I+want+you+to+listen+to+me.+I%E2%80%99m+going+to+say+this+again%3A+I+did+not+have",
+            "Supposed author": "Hillary Clinton",
+            "Tweet body": "I want to say one thing to the American people. I want you to listen to me. I’m going to say this again: I did not have murderous intentions toward that Prime Minister, Shinzo Abe. I never told anybody to kill him. Not a single time. Never. These allegations are false. And I need to go back to work for the American people.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 23": {
+            "Article URL": "https://www.reuters.com/article/idUSL2N2WQ2AP",
+            "Query URL": "https://reuters.com/search/news?blob=I%E2%80%99m+from+South+Africa+you+dumbass.",
+            "Supposed author": "Elon Musk",
+            "Tweet body": "I’m from South Africa you dumbass.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 24": {
+            "Article URL": "https://www.reuters.com/article/idUSKBN23U2KB",
+            "Query URL": "https://reuters.com/search/news?blob=Anyone+who+ordered+a+ticket+to+my+rally+and+didn%E2%80%99t+attend+should+be+arrested+and+face+very+powerful+charges.+%23treason",
+            "Supposed author": "Donald Trump",
+            "Tweet body": "Anyone who ordered a ticket to my rally and didn’t attend should be arrested and face very powerful charges. #treason",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 25": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2RP23V",
+            "Query URL": "https://reuters.com/search/news?blob=Eamon+Ryan+has+called+on+Irish+radio+stations+to+avoid+playing+%E2%80%98Driving+Home+For+Christmas%E2%80%99+this+festive+period%2C+claiming+the",
+            "Supposed author": "Dr Harold News",
+            "Tweet body": "Eamon Ryan has called on Irish radio stations to avoid playing ‘Driving Home For Christmas’ this festive period, claiming the song ‘glamorises and promotes’ car use.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 26": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2OZ1GZ",
+            "Query URL": "https://reuters.com/search/news?blob=Oh+no%21+Another+batch+of+murdered+children%21+We+need+to+keep+AR-15s+out+of+the+hands+of+sociopaths%21+Try+and+get+this+through",
+            "Supposed author": "Lauren Boebert",
+            "Tweet body": "Oh no! Another batch of murdered children! We need to keep AR-15s out of the hands of sociopaths! Try and get this through your thick skulls, you freedom-hating communist dirtbags: I would rather see every child in this country dead than pass any new gun laws.",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 27": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2R02IS",
+            "Query URL": "URL", 
+            "Supposed author": "Brother Berg (@extracapsa, not well known)",
+            "Tweet body": "Biden got tripple vaxxed 666 days after COVID began,",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 28": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2RW1YJ",
+            "Query URL": "https://reuters.com/search/news?blob=%23Tigray+Armed_Forces+command+Decided+today+%23NOV_5_2021+that+the+TDF+should+tactically+retreaded+from+%40dessie+and+%40kombolcha",
+            "Supposed author": "Getachew K Reda",
+            "Tweet body": "#Tigray Armed_Forces command Decided today #NOV_5_2021 that the TDF should tactically retreaded from @dessie and @kombolcha cities to the northern wollo zones! we will control those cities, if it is necessary, back!! #the_regime _must go!",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 29": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2SG0RF",
+            "Query URL": "https://reuters.com/search/news?blob=I+don%E2%80%99t+care+about+Jeffrey+Epstein%21+I+don%E2%80%99t+care+if+Democrats+are+Pedophiles%21+I+am+proud+to+be+a+Democrat%21+Nothing+will+ever",
+            "Supposed author": "Joy Behar",
+            "Tweet body": "I don’t care about Jeffrey Epstein! I don’t care if Democrats are Pedophiles! I am proud to be a Democrat! Nothing will ever change my mind, not even this!",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        },
+        "Article 30": {
+            "Article URL": "https://www.reuters.com/article/idUSL1N2SH128",
+            "Query URL": "https://reuters.com/search/news?blob=Another+healthy+20+year+old+has+died+on+our+ward+tonight%2C+he+had+the+2nd+pzifer+vaccine+yesterday+and+today+developed",
+            "Supposed author": "Dr Mendalias Diputserauoy (Not a real person)",
+            "Tweet body": "Another healthy 20 year old has died on our ward tonight, he had the 2nd pzifer vaccine yesterday and today developed myocarditis and unfortunately ended up with heart failure. This is a direct result of the vaccine, this shouldn't be happening and we need to speak out about this",
+            "Reciprocal rank": 1,
+            "Precision at 1": 1
+        }
+    }
+}
