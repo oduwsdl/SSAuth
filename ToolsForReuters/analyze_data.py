@@ -20,7 +20,7 @@ def main(argv):
     reuters_pre_rate = round(reuters_pre_at_one / total_articles, 4)
     reuters_reciprocal_rate = round(reuters_reciprocal_total / total_articles, 4)
 
-    print('Average reciprocal at 1 value: ' + str(reuters_pre_rate))
+    print('Average precision at 1 value: ' + str(reuters_pre_rate))
     print('Average reciprocal rank: ' + str(reuters_reciprocal_rate))
 
 if __name__ == "__main__":
