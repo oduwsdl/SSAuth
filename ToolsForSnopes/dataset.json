@@ -18,6 +18,11 @@
                 "Query URL": "https://www.google.com/search?q=My+grandparents+didn%27t+come+to+America+all+the+way+from+Germany+to+see+it+get+taken+over+by+immigrants.+Not+on+my+watch.+%23TrumpForPresident",
                 "Reciprocal rank": 1,
                 "Precision at 1": 1
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=My+grandparents+didn%27t+come+to+America+all+the+way+from+Germany+to+see+it+get+taken+over+by+immigrants.+Not+on+my+watch.",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 2":{
@@ -43,6 +48,11 @@
                 "Query URL": "https://www.google.com/search?q=Trump+takes+credit+for+%27being+right+on+radical+Islamic+terrorism%27+site%3Asnopes.com",
                 "Reciprocal rank:": 0,
                 "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=Appreciate+the+congrats+for+being+right+on+radical+Islamic+terrorism%2C+I+don%27t+want+congrats%2C+I+want+toughness+%26+vigilance.+We",
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
             }
         },
         "Article 3":{
@@ -62,6 +72,11 @@
             "Google query": {
                 "Query URL": "https://www.google.com/search?q=I+wish+someone+would+call+Canadians+what+they+are%3A+Snow+Mexicans",
                 "Reciprocal rank": 0.5,
+                "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=I+wish+someone+would+call+Canadians+what+they+are%3A+Snow+Mexicans",
+                "Reciprocal rank": 0,
                 "Precision at 1": 0
             }
         },
@@ -88,6 +103,11 @@
                 "Query URL": "https://www.google.com/search?q=Examining+the+Public+Backlash+to+Beyonc%C3%A9%27s+Super+Bowl+50+site%3Asnopes.com",
                 "Reciprocal rank": 0,
                 "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=Americans+won%27t+stand+for+your+anti-White%2C+racist+performance+%40Beyonce.+You+will+no+longer+be+a+part+of+this+country+under+my",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 5":{
@@ -108,6 +128,11 @@
                 "Query URL": "https://www.google.com/search?q=If+you+American+birds+could+keep+your+legs+closed+then+maybe+you+wouldn%27t+need+abortions+in+the+first+place%3F",
                 "Reciprocal rank": 0.5,
                 "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=If+you+American+birds+could+keep+your+legs+closed+then+maybe+you+wouldn%27t+need+abortions+in+the+first+place%3F",
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
             }
         },
         "Article 6":{
@@ -128,6 +153,11 @@
                 "Query URL": "https://www.google.com/search?q=My+object+in+life+is+to+dethrone+God+and+destroy+capitalism",
                 "Reciprocal rank": 1,
                 "Precision at 1": 1
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=My+object+in+life+is+to+dethrone+God+and+destroy+capitalism",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 7":{
@@ -148,6 +178,11 @@
                 "Query URL": "https://www.google.com/search?q=Why+do+we+call+it+New+York%3F+There+isn%27t+an+Old+York.+It+should+just+be+York.",
                 "Reciprocal rank": 1,
                 "Precision at 1": 1
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=Why+do+we+call+it+New+York%3F+There+isn%27t+an+Old+York.+It+should+just+be+York.",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 8":{
@@ -168,6 +203,11 @@
                 "Query URL": "https://www.google.com/search?q=Watching+the+Academy+Awards+tonight+both+Ann+and+I+were+shocked+Dr.+Jill+Biden+didn%27t+get+a+statue+for+her+portrayal+of+an+Alzheimer%27s+care+giver+posing+as+a+loving+wife.+She+was+robbed.",
                 "Reciprocal rank": 1,
                 "Precision at 1": 1
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=Watching+the+Academy+Awards+tonight+both+Ann+and+I+were+shocked+Dr.+Jill+Biden+didn%27t+get+a+statue+for+her+portrayal+of+an",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 9":{
@@ -188,6 +228,11 @@
                 "Query URL": "https://www.google.com/search?q=Congrats+to+President+Joe+Biden.+Now+let%E2%80%99s+begin+%E2%80%98The+Purge%E2%80%99+to+roundup+all+Conservative+traitors%21+Democrats%2C+let%E2%80%99s+make+Auschwitz+look+like+a+picnic%21",
                 "Reciprocal rank": 0.2,
                 "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=Congrats+to+President+Joe+Biden.+Now+let%E2%80%99s+begin+%E2%80%98The+Purge%E2%80%99+to+roundup+all+Conservative+traitors%21+Democrats%2C+let%E2%80%99s+make",
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
             }
         },
         "Article 10":{
@@ -207,6 +252,11 @@
             "Google query": {
                 "Query URL": "https://www.google.com/search?q=Reminder%3A+Every+Republican+Speaker+of+the+House+who+oversaw+the+impeachment+of+Bill+Clinton+has+now+been+found+to+be+a+part+of+a+sex+scandal",
                 "Reciprocal rank": 0.5,
+                "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=Reminder%3A+Every+Republican+Speaker+of+the+House+who+oversaw+the+impeachment+of+Bill+Clinton+has+now+been+found+to+be+a+part",
+                "Reciprocal rank": 0,
                 "Precision at 1": 0
             }
         },
@@ -228,6 +278,11 @@
                 "Query URL": "https://www.google.com/search?q=This+disgusting+rape+isn%27t+tolerated+in+Texas.+We+won%27t+deport+him%2C+just+to+have+him+return.+Instead%2C+he%27ll+spend+the+next+244+years+in+jail--+which+means+life.+It+won%27t+be+a+pleasant+stay.+%23txlege+http%3A%2F%2Fbbc-edition.com%2F2019%2F02%2F03%2Fillegal-immigrant-raped-his-one-month-old-daughter-left-her-with-45-broken-bones-please-deport-all-illegal-immigrant%2F",
                 "Reciprocal rank": 1,
                 "Precision at 1": 1
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=This+disgusting+rape+isn%27t+tolerated+in+Texas.+We+won%27t+deport+him%2C+just+to+have+him+return.+Instead%2C+he%27ll+spend+the+next",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 12":{
@@ -246,6 +301,11 @@
             },
             "Google query": {
                 "Query URL": "https://www.google.com/search?q=China+steals+United+States+Navy+research+drone+in+international+waters+-+rips+it+out+of+water+and+takes+it+to+China+in+unpresidented+act.",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=China+steals+United+States+Navy+research+drone+in+international+waters+-+rips+it+out+of+water+and+takes+it+to+China+in",
                 "Reciprocal rank": 0,
                 "Precision at 1": 0
             }
@@ -273,6 +333,11 @@
                 "Query URL": "https://www.google.com/search?q=CBS+Reporter+Tweets+That+Hillary%27s+About+To+Drop+Out+Of+Race+site%3Asnopes.com",
                 "Reciprocal rank": 1,
                 "Precision at 1": 1
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=Source+inside+Clint.+camp%3A+%22Staff+resigning+%26+worries+of+H+dropping+out%22+after+FBI+release",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 14":{
@@ -291,6 +356,11 @@
             },
             "Google query": {
                 "Query URL": "https://www.google.com/search?q=I%27m+from+South+Africa%2C+you+dumbass.",
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=I%E2%80%99m+from+South+Africa+you+dumbass.",
                 "Reciprocal rank": 1,
                 "Precision at 1": 1
             }
@@ -323,6 +393,11 @@
                 "Query URL": "https://www.google.com/search?q=FACT+CHECK:+Image+Claims+To+Show+Donald+Trump+Disparaging+site:snopes.com",
                 "Reciprocal rank": 0,
                 "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=KARMALA+what+the+hell+is+that+name+anyway%3F%3F%3F+Sounds+like+a+terrorist%21+Not+EVEN+American%21%21+Need+birth+certificate%21+When+Obama",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 16":{
@@ -343,7 +418,13 @@
                 "Query URL": "https://www.google.com/search?q=I+think+it%27s+highly+likely+that+all+these+people+that+have+contracted+the+China+Virus+got+it+from+having+sex+with+barnyard+animals.",
                 "Reciprocal rank": 0.33,
                 "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=I+think+it%27s+highly+likely+that+all+these+people+that+have+contracted+the+China+Virus+got+it+from+having+sex+with+barnyard",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
+            
         },
         "Article 17":{
             "URL": "https://www.snopes.com/fact-check/marjorie-taylor-greene-woman-choice/",
@@ -363,6 +444,11 @@
                 "Query URL": "https://www.google.com/search?q=The+greatest+choice+a+woman+can+make+is+becoming+a+mother.",
                 "Reciprocal rank": 1,
                 "Precision at 1": 1
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=The+greatest+choice+a+woman+can+make+is+becoming+a+mother.",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 18":{
@@ -388,6 +474,11 @@
                 "Query URL": "https://www.google.com/search?q=I+think+most+Americans+would+agree+that+I%27m+a+level-headed+individual%2C+not+a+man+who%27s+prone+to+indulging+in+conspiracy+theories.+I%27ve+certainly+had+a+fair+number+directed+at+me.+But+has+anyone+checked+to+make+sure",
                 "Reciprocal rank": 0.5,
                 "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=I+think+most+Americans+would+agree+that+I%E2%80%99m+a+level-headed+individual%2C+not+a+man+who%E2%80%99s+prone+to+indulging+in+conspiracy",
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
             }
         },
         "Article 19":{
@@ -407,6 +498,11 @@
             "Google query": {
                 "Query URL": "https://www.google.com/search?q=Peaceful+protest+is+the+right+of+every+American+but+this+attack+on+our+Capitol+will+not+be+tolerated+and+those+involved+will+be+prosecuted+to+the+fullest+extent+of+the+law.",
                 "Reciprocal rank": 0.14,
+                "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=Peaceful+protest+is+the+right+of+every+American+but+this+attack+on+our+Capitol+will+not+be+tolerated+and+those+involved+will",
+                "Reciprocal rank": 0,
                 "Precision at 1": 0
             }
         },
@@ -433,6 +529,11 @@
                 "Query URL": "https://www.google.com/search?q=Obama%27s+handling+of+this+whole+pandemic+has+been+terrible%21+As+President%2C+ALL+responsibility+becomes+yours+during+a+crisis+like+this%2C+whether+or+not+you%27re+entirely+to+blame.+John+McCain%2C+and+for+that+matter+myself%2C+would+never+let+thousands+of+Americans+die+from+a",
                 "Reciprocal rank": 0.33,
                 "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=Obama%27s+handling+of+this+whole+pandemic+has+been+terrible%21+As+President%2C+ALL+responsibility+becomes+yours+during+a+crisis",
+                "Reciprocal rank": 1,
+                "Precision at 1": 1
             }
         },
         "Article 21":{
@@ -458,6 +559,11 @@
                 "Query URL": "https://www.google.com/search?q=If+someone+told+me+3+years+ago%2C+while+I+was+waitressing+to+help+my+family+stay+afloat%2C+that+in+a+few+short+years+an+unhinged+President+of+the+United+States+would+be+repeatedly+saying+my+name+at+the+2020+debate%2C+I+would%27ve+brought",
                 "Reciprocal rank": 0.5,
                 "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=If+someone+told+me+3+years+ago%2C+while+I+was+waitressing+to+help+my+family+stay+afloat%2C+that+in+a+few+short+years+an+unhinged",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 22":{
@@ -478,6 +584,11 @@
                 "Query URL": "https://www.google.com/search?q=In+case+anyone+is+curious...+Right+now+in+the+USA%2C+every+ten+days%2C+more+than+8%2C000+%28unvaccinated%29+Republican+voters+are+dying+of+COVID-19.+That%27s+5X+the+rate+for+Democrats.",
                 "Reciprocal rank": 1,
                 "Precision at 1": 1
+            },
+            "Reuters query:": {
+                "Query URL": "https://reuters.com/search/news?blob=In+case+anyone+is+curious...+Right+now+in+the+USA%2C+every+ten+days%2C+more+than+8%2C000+%28unvaccinated%29+Republican+voters+are+dying",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 23":{
@@ -497,6 +608,11 @@
             "Google query": {
                 "Query URL": "https://www.google.com/search?q=I+have+information+that+will+lead+to+Hillary+Clinton%E2%80%99s+arrest.",
                 "Reciprocal rank": 0.13,
+                "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=I+have+information+that+will+lead+to+Hillary+Clinton%E2%80%99s+arrest.",
+                "Reciprocal rank": 0.5,
                 "Precision at 1": 0
             }
         },
@@ -518,6 +634,11 @@
                 "Query URL": "https://www.google.com/search?q=The+Onion+has+been+banned+from+Twitter%2C+follow+us+on+Twitter+for+more+updates.",
                 "Reciprocal rank": 0.5,
                 "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=The+Onion+has+been+banned+from+Twitter%2C+follow+us+on+Twitter+for+more+updates.",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 25":{
@@ -537,6 +658,11 @@
             "Google query": {
                 "Query URL": "https://www.google.com/search?q=I%27m+a+black+gay+guy+and+I+can+personally+say+that+Obama+did+nothing+for+me%2C+my+life+only+changed+a+little+bit+and+it+was+for+the+worse.+Everything+is+so+much+better+under+Trump+though.+I+feel+respected+-+which+I+never+do+when+democrats+are+involved.",
                 "Reciprocal rank": 0.2,
+                "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=I%27m+a+black+gay+guy+and+I+can+personally+say+that+Obama+did+nothing+for+me%2C+my+life+only+changed+a+little+bit+and+it+was+for",
+                "Reciprocal rank": 0,
                 "Precision at 1": 0
             }
         },
@@ -563,6 +689,11 @@
                 "Query URL": "https://www.google.com/search?q=There+is+nothing+that+I+would+want+more+for+our+Country+than+true+FREEDOM+OF+THE+PRESS.+The+fact+is+that+the+Press+is+FREE+to+write+and+say+anything+it+wants%2C+but+much+of+what+it+says+is+FAKE+NEWS%2C+pushing+a+political+agenda+or+just+plain+trying+to+hurt+people.",
                 "Reciprocal rank": 0,
                 "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=There+is+nothing+that+I+would+want+more+for+our+Country+than+true+FREEDOM+OF+THE+PRESS.+The+fact+is+that+the+Press+is+FREE+to",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 27":{
@@ -582,6 +713,11 @@
             "Google query": {
                 "Query URL": "https://www.google.com/search?q=Blue-state+Dems+are+power-drunk+authoritarian+kill-joys.++Washington+State%3A+NO+DANCING+ALLOWED%21%21%21++Any+rational+%26+free+citizen%3A+Piss+off.",
                 "Reciprocal rank": 0.25,
+                "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=Dems+are+power-drunk+authoritarian+kill-joys.+Washington+State%3A+NO+DANCING+ALLOWED%21%21%21+Any+rational+%26+free+citizen%3A+Piss+off.",
+                "Reciprocal rank": 0,
                 "Precision at 1": 0
             }
         },
@@ -608,6 +744,11 @@
                 "Query URL": "https://www.google.com/search?q=We+are+not+prepared+for+a+pandemic.+Trump+has+rolled+back+progress+President+Obama+and+I+made+to+strengthen+global+health+security.+We+need+leadership+that+builds+public+trust%2C+focuses+on+real+threats%2C+and+mobilizes+the+world+to+stop+outbreaks+before+they",
                 "Reciprocal rank": 0.13,
                 "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=We+are+not+prepared+for+a+pandemic.+Trump+has+rolled+back+progress+President+Obama+and+I+made+to+strengthen+global+health",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 29":{
@@ -628,6 +769,11 @@
                 "Query URL": "https://www.google.com/search?q=Top+10+countries+that+have+achieved+gender+equality%3A+++1.+2.+3.+4.+5.+6.+7.+8.+9.+10.++There+are+none.++We+need+to+step+up+our+efforts+for+a+better+future.+%23GenerationEquality",
                 "Reciprocal rank": 0.5,
                 "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=Top+10+countries+that+have+achieved+gender+equality%3A+1.2.3.4.5.6.7.8.9.10.There+are+none.",
+                "Reciprocal rank": 0,
+                "Precision at 1": 0
             }
         },
         "Article 30":{
@@ -647,6 +793,11 @@
             "Google query": {
                 "Query URL": "https://www.google.com/search?q=I%27m+EMBARRASSED%3A+Texas+%232+in+nation+for+new+gun+purchases%2C+behind+CALIFORNIA.+Let%27s+pick+up+the+pace+Texans+%40NRA",
                 "Reciprocal rank": 0.33,
+                "Precision at 1": 0
+            },
+            "Reuters query": {
+                "Query URL": "https://reuters.com/search/news?blob=I%27m+EMBARRASSED%3A+Texas+%232+in+nation+for+new+gun+purchases%2C+behind+CALIFORNIA.+Let%27s+pick+up+the+pace+Texans+%40NRA",
+                "Reciprocal rank": 0,
                 "Precision at 1": 0
             }
         }
