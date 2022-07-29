@@ -10,7 +10,8 @@ import re
 # Function to generate encoded query url from a string
 def generate_query_url(reuters_query):
     query_dict = {'blob': reuters_query}
-    return ('https://reuters.com/search/news?' + urlencode(query_dict))
+    reuters_search_url =" https://reuters.com/search/news?" # can be changed if site changes
+    return (reuters_search_url + urlencode(query_dict))
 
 # Function to generate truncated query url without cutting off words from tweet_text
 def generate_reuters_query(tweet_text):
@@ -28,7 +29,8 @@ def generate_reuters_query(tweet_text):
 # Function to get all links to fact check articles from a query url
 def grab_links(query_url):
     # Make request, setup bs object
-    search_results = ss('h3', class_='search-result-title')
+    class_tag = "search-result-title" # can be changed if site changes
+    search_results = ss('h3', class_=class_tag)
     html = requests.get(query_url)
     html_text = html.text
     soup = bs(html_text, 'html.parser', parse_only=search_results)
@@ -45,7 +47,8 @@ def grab_links(query_url):
 # Function to grab the verdict rating of a Reuters article given its url
 def grab_rating(article_url):
     # Make request, setup bs object
-    only_verdict = ss(class_=['Paragraph-paragraph-2Bgue ArticleBody-para-TD_9x', 'Headline-headline-2FXIq Headline-black-OogpV ArticleBody-heading-3h695'])
+    class_tags = ['Paragraph-paragraph-2Bgue ArticleBody-para-TD_9x', 'Headline-headline-2FXIq Headline-black-OogpV ArticleBody-heading-3h695'] # can be changed if site changes
+    only_verdict = ss(class_=class_tags)
     html = requests.get(article_url)
     html_text = html.text
     soup = bs(html_text, 'html.parser', parse_only=only_verdict)
@@ -61,7 +64,7 @@ def grab_rating(article_url):
 def main(argv):
     # Open input file
     try:
-        f = codecs.open(sys.argv[1], 'r', 'utf-8"')
+        f = codecs.open(sys.argv[1], 'r', 'utf-8')
         query_str = f.read()
     except FileNotFoundError:
         print('Please provide a valid input file as an argument')
@@ -70,6 +73,7 @@ def main(argv):
         print("Please provide a valid input file as an argument")
         sys.exit(1)
     query = generate_reuters_query(query_str)
+    print(query)
     # Grab all links from query
     links = grab_links(query)
     # Output url and verdict of each article found

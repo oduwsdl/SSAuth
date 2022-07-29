@@ -11,7 +11,8 @@ from urllib.parse import urlencode
 # This list may contain elements that have unexpected white space, characters, etc
 def perform_query(tweet):
     # Soup Strainer to parse only tweet-text
-    only_tweet_text = ss('p', class_='tweet-text')
+    tweet_text_tag = 'tweet-text' # can be modified if site changes
+    only_tweet_text = ss('p', class_=tweet_text_tag)
     # First part of URL for a query
     site = "https://projects.propublica.org/politwoops/index?utf8=%E2%9C%93&"
     # Creating the query string
