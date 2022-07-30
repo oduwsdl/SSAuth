@@ -2,6 +2,8 @@ import sys
 import json
 import codecs
 from scraper.Google import googleSearch
+from ToolsForSnopes.query_snopes import grab_rating as snopes_rating
+from ToolsForReuters.query_reuters import grab_rating as reuters_rating
 
 # Shortens a given text to 32 words (max word count for a google search)
 def shorten_google_query(tweet):
@@ -37,7 +39,18 @@ def main(argv):
         print("Please provide a valid input file as an argument")
         sys.exit(1)
     links = make_google_query(query_str)
-    print(filter_links(links))
+    links = filter_links(links)
+    for link in links:
+        if 'snopes.com/fact-check' in link:
+            rating = snopes_rating(link)
+            print("Snopes article found at URL: " + link)
+            print("Truth rating in this article is " + rating)
+        elif 'reuters.com/article' in link:
+            rating = reuters_rating(link)
+            print("Reuters article found at URL: " + link)
+            print("Verdict found in this article is " + rating)
+        elif 'twitter.com' in link:
+            print("Tweet potentially found on live web at URL " + link)
 
 
     
