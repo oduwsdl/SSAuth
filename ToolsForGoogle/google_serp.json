@@ -1,0 +1,230 @@
+{
+    "source": "Google",
+    "query": "My grandparents didn't come to America all the way from Germany to see it get taken over by immigrants. Not on my watch. #TrumpForPresident",
+    "extra_params": {
+        "raw_request_params": {
+            "files": false,
+            "max_file_depth": 1,
+            "news": false,
+            "directives": "",
+            "no_interleave": false,
+            "find_uri_key": "",
+            "leave_browser_open": true,
+            "mimic_human_search": false,
+            "chromedriver_path": "",
+            "sleep_sec": 1,
+            "chromedriver": null,
+            "delay_sec": 0,
+            "html_cache_file": "",
+            "sniff_serp": false
+        },
+        "page_dets": {
+            "result_count": 6040,
+            "search_state": {
+                "proc_pg_count": 1
+            },
+            "scraping_report": {
+                "tag": "div",
+                "class": "eqAnXb",
+                "children": [
+                    {
+                        "tag": "div",
+                        "class": "g",
+                        "count": 10,
+                        "children": [],
+                        "messages": []
+                    }
+                ],
+                "count": 1,
+                "misc": {}
+            },
+            "sniffed_info": {},
+            "related_questions": [
+                "What country did Donald Trump's grandfather come from?",
+                "When did Donald Trumps ancestors come to America?"
+            ],
+            "related_queries": [],
+            "captcha_on": false
+        }
+    },
+    "self_uris": [
+        {
+            "page": 1,
+            "uri": "https://www.google.com/search?as_q=My%20grandparents%20didn%27t%20come%20to%20America%20all%20the%20way%20from%20Germany%20to%20see%20it%20get%20taken%20over%20by%20immigrants.%20Not%20on%20my%20watch.%20%23TrumpForPresident"
+        }
+    ],
+    "max_page": 1,
+    "gen_timestamp": "2022-07-29T01:03:29Z",
+    "links": [
+        {
+            "link": "https://www.snopes.com/fact-check/donald-trump-fake-tweet/",
+            "title": "A Fake Tweet from Donald Trump - Snopes.com",
+            "date": "Jul 28, 2022",
+            "snippet": "Donald Trump tweeted that his \"grandparents didn't come to America\" to see the country taken over by immigrants.",
+            "rank": 1,
+            "page": 1,
+            "custom": {
+                "link_class": "main_blue_link",
+                "date_auto_gen": false
+            }
+        },
+        {
+            "link": "https://me.me/i/donald-j-trump-follow-mcdonaldjtrump-my-grandparents-didnt-come-fddf0ba40295413e966d2d737603374e",
+            "title": "Donald J Trump * Follow My Grandparents Didn't Come to America ...",
+            "date": "Jul 28, 2022",
+            "snippet": "\u203a donald-j-trump-follow-mcdonaldjtrump...",
+            "rank": 2,
+            "page": 1,
+            "custom": {
+                "link_class": "main_blue_link",
+                "date_auto_gen": false
+            }
+        },
+        {
+            "link": "https://www.facebook.com/thetotallyrealdonaldtrump/posts/my-grandparents-didnt-come-to-america-all-the-way-from-germany-just-to-see-it-ge/1994560050788724/",
+            "title": "Donald J Trump - My grandparents didn't come to America...",
+            "date": "Jul 28, 2022",
+            "snippet": "\u203a posts \u203a my-grandparents-d...",
+            "rank": 3,
+            "page": 1,
+            "custom": {
+                "link_class": "main_blue_link",
+                "date_auto_gen": false
+            }
+        },
+        {
+            "link": "https://www.forbes.com/sites/stuartanderson/2018/01/15/the-president-in-1885-didnt-stop-immigrant-friedrich-trump-from-coming-to-america/",
+            "title": "The President In 1885 Didn't Stop Immigrant Friedrich Trump ...",
+            "date": "Jul 28, 2022",
+            "snippet": "Donald Trump's grandfather came from a part of Germany with a \"nightmarish past\" and was welcomed as an immigrant to America.",
+            "rank": 4,
+            "page": 1,
+            "custom": {
+                "link_class": "main_blue_link",
+                "date_auto_gen": false
+            }
+        },
+        {
+            "link": "https://www.washingtonpost.com/news/retropolis/wp/2018/06/27/the-story-of-donald-trumps-grandfather-who-came-to-the-u-s-as-an-unaccompanied-minor/",
+            "title": "The story of Donald Trump's grandfather, who came to the ...",
+            "date": "Jul 28, 2022",
+            "snippet": "17, 1885. Hundreds of would-be Americans from Germany had traveled for 10 days across the North Atlantic to their new home. Among them was a\u00a0...",
+            "rank": 5,
+            "page": 1,
+            "custom": {
+                "link_class": "main_blue_link",
+                "date_auto_gen": false
+            }
+        },
+        {
+            "link": "https://www.politico.com/magazine/story/2016/10/donald-trump-immigration-story-video-214389",
+            "title": "What Donald Trump Doesn't Get About His Own Immigration ...",
+            "date": "Jul 28, 2022",
+            "snippet": "WATCH: Trump says he'll restore upward mobility by keeping immigrants out. But the history of his own German-born grandfather suggests that\u00a0...",
+            "rank": 6,
+            "page": 1,
+            "custom": {
+                "link_class": "main_blue_link",
+                "date_auto_gen": false
+            }
+        },
+        {
+            "link": "https://www.npr.org/2016/08/31/492096565/fact-check-donald-trumps-speech-on-immigration",
+            "title": "Fact Check: Donald Trump's Speech On Immigration - NPR",
+            "date": "Jul 28, 2022",
+            "snippet": "\u203a 2016/08/31 \u203a fact-check-donald-tr...",
+            "rank": 7,
+            "page": 1,
+            "custom": {
+                "link_class": "main_blue_link",
+                "date_auto_gen": false
+            }
+        },
+        {
+            "link": "https://www.afsc.org/blogs/news-and-commentary/trumps-attacks-legal-immigration-system-explained",
+            "title": "Trump's attacks on the legal immigration system explained",
+            "date": "Jul 28, 2022",
+            "snippet": "Update as of Jan. 25, 2021: Soon after taking office, President Joe Biden issued an executive order ending the \"Remain in Mexico policy,\"\u00a0...",
+            "rank": 8,
+            "page": 1,
+            "custom": {
+                "link_class": "main_blue_link",
+                "date_auto_gen": false
+            }
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Immigration_policy_of_Donald_Trump",
+            "title": "Immigration policy of Donald Trump - Wikipedia",
+            "date": "Jul 28, 2022",
+            "snippet": "\u203a wiki \u203a Immigration_policy_o...",
+            "rank": 9,
+            "page": 1,
+            "custom": {
+                "link_class": "main_blue_link",
+                "date_auto_gen": false
+            }
+        },
+        {
+            "link": "https://ecollections.law.fiu.edu/cgi/viewcontent.cgi?article=1429&context=faculty_publications",
+            "title": "Build the Wall and Wreck the System: Immigration Policy in the ...",
+            "date": "Jul 28, 2022",
+            "snippet": "To obtain permission to use this article beyond the scope of your ... ing in is a cure-all that Donald Trump has sold to Americans who feel\u00a0...",
+            "rank": 10,
+            "page": 1,
+            "custom": {
+                "link_class": "main_blue_link",
+                "date_auto_gen": false
+            }
+        }
+    ],
+    "stats": {
+        "total_links": 10,
+        "domain_dist": {
+            "top_k_domain_link_count": 10,
+            "col_frac": 1.0,
+            "top_k_domains": [
+                [
+                    "snopes.com",
+                    1
+                ],
+                [
+                    "me.me",
+                    1
+                ],
+                [
+                    "facebook.com",
+                    1
+                ],
+                [
+                    "forbes.com",
+                    1
+                ],
+                [
+                    "washingtonpost.com",
+                    1
+                ],
+                [
+                    "politico.com",
+                    1
+                ],
+                [
+                    "npr.org",
+                    1
+                ],
+                [
+                    "afsc.org",
+                    1
+                ],
+                [
+                    "wikipedia.org",
+                    1
+                ],
+                [
+                    "fiu.edu",
+                    1
+                ]
+            ],
+            "k": 10
+        }
+    }
+}
