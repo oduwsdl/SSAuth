@@ -9,7 +9,8 @@ import codecs
 # Function to grab all links from a query url that are fact checks
 def grab_links(query_url):
     # Make request, setup bs object
-    only_links = ss('a', class_="link")
+    link_class_tag = "link" # can be changed if site changes
+    only_links = ss('a', class_=link_class_tag)
     html = requests.get(query_url)
     html_text = html.text
     soup = bs(html_text, "html.parser", parse_only=only_links)
@@ -26,7 +27,8 @@ def grab_links(query_url):
 # Given a url for a fact check article, returns the truth rating from it
 def grab_rating(article_url):
     # Make request, setup bs object
-    rating_strainer = ss(class_ = ['figure-image img-responsive img-fluid w-100 Media--image', 'figure-image img-responsive img-fluid w-100'])
+    rating_img_class_tags = ['figure-image img-responsive img-fluid w-100 Media--image', 'figure-image img-responsive img-fluid w-100'] # can be changed if site changes
+    rating_strainer = ss(class_= rating_img_class_tags)
     html = requests.get(article_url)
     html_text = html.text
     soup = bs(html_text, 'html.parser', parse_only = rating_strainer)
