@@ -1,8 +1,9 @@
-import sys
+import sys, os
 import json
 import codecs
-sys.path.insert(0,'../ToolsForSnopes')
-sys.path.insert(0, '../ToolsForReuters')
+dirname = os.path.dirname(__file__)
+filename = os.path.join(dirname, '../ToolsForSnopes')
+filename = os.path.join(dirname, '../ToolsForReuters')
 
 from scraper.Google import googleSearch
 from ToolsForSnopes.query_snopes import grab_rating as snopes_rating
