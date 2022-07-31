@@ -28,8 +28,9 @@ def filter_links(links_list):
     sites_we_want = ['twitter.com', 'snopes.com/fact-check', 'reuters.com/article']
     return [link for link in links_list if any(site in link for site in sites_we_want)] # i think this is cool
 
-
+# Takes an input file for a query, gets results relvant to attribution
 def main(argv):
+    # Open input file
     try:
         f = codecs.open(sys.argv[1], 'r', 'utf-8')
         query_str = f.read()
@@ -39,8 +40,14 @@ def main(argv):
     except IndexError:
         print("Please provide a valid input file as an argument")
         sys.exit(1)
+    # Make the query, filter results
     links = make_google_query(query_str)
     links = filter_links(links)
+    # If no links left, abort
+    if not links:
+        print("No results from relevant sites found")
+        sys.exit(2)
+    # Interpret links appropriately
     for link in links:
         if 'snopes.com/fact-check' in link:
             rating = snopes_rating(link)
