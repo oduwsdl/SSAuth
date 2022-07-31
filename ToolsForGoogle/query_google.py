@@ -23,10 +23,11 @@ def make_google_query(tweet):
         links.append(link["link"])
     return links
 
-# Filter to just sites that we can use to verify attribution (can be added to)
+# Filter to just sites that we can use to verify attribution (sites can be added to)
 def filter_links(links_list):
     sites_we_want = ['twitter.com', 'snopes.com/fact-check', 'reuters.com/article']
-    return [link for link in links_list if any(site in link for site in sites_we_want)] # i think this is cool
+    sites_we_dont_want = ['translate.google']
+    return [link for link in links_list if any(site in link for site in sites_we_want) and not any(site in link for site in sites_we_dont_want)] # i think this is cool
 
 # Takes an input file for a query, gets results relvant to attribution
 def main(argv):
