@@ -1,15 +1,11 @@
 import sys, os
 import json
 import codecs
-dirname = os.path.dirname(__file__)
-filename = os.path.join(dirname, '../ToolsForSnopes')
-filename = os.path.join(dirname, '../ToolsForReuters')
+sys.path.append(os.path.realpath('..'))
 
 from scraper.Google import googleSearch
 from ToolsForSnopes.query_snopes import grab_rating as snopes_rating
 from ToolsForReuters.query_reuters import grab_rating as reuters_rating
-
-
 
 # Shortens a given text to 32 words (max word count for a google search)
 def shorten_google_query(tweet):
@@ -31,7 +27,6 @@ def make_google_query(tweet):
 def filter_links(links_list):
     sites_we_want = ['twitter.com', 'snopes.com/fact-check', 'reuters.com/article']
     return [link for link in links_list if any(site in link for site in sites_we_want)] # i think this is cool
-
 
 
 def main(argv):
@@ -56,7 +51,7 @@ def main(argv):
             print("Reuters article found at URL: " + link)
             print("Verdict found in this article is " + rating)
         elif 'twitter.com' in link:
-            print("Tweet potentially found on live web at URL " + link)
+            print("Tweet or related tweet potentially found on live web at URL " + link)
 
 
     
