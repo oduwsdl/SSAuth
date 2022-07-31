@@ -1,9 +1,14 @@
 import sys
 import json
 import codecs
+sys.path.insert(0,'../ToolsForSnopes')
+sys.path.insert(0, '../ToolsForReuters')
+
 from scraper.Google import googleSearch
 from ToolsForSnopes.query_snopes import grab_rating as snopes_rating
 from ToolsForReuters.query_reuters import grab_rating as reuters_rating
+
+
 
 # Shortens a given text to 32 words (max word count for a google search)
 def shorten_google_query(tweet):
