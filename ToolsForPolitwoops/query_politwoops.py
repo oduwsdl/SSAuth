@@ -70,20 +70,10 @@ def query_politwoops(tweet):
 
 def main(argv):
     if(len(sys.argv) != 2):
-        print("Incorrect number of arguments; please provide only path to input file")
-    # Open input file
-    try:
-        f = codecs.open(sys.argv[1], 'r', 'utf-8"')
-        full_tweet = f.read()
-    except FileNotFoundError:
-        print('Please provide an input file that exists')
+        print("Please provide only a supposed tweet as an argument")
         sys.exit(1)
-        
-    # print(full_tweet)
-    # print(len(full_tweet))
     
-    # If no results, then it does not exist
-    if query_politwoops(full_tweet):
+    if query_politwoops(sys.argv[1]):
         print("That tweet was successfully queried on Politwoops")
     else:
         print("That tweet was not found on Politwoops")

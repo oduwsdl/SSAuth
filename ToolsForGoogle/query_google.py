@@ -31,16 +31,10 @@ def filter_links(links_list):
 
 # Takes an input file for a query, gets results relvant to attribution
 def main(argv):
-    # Open input file
-    try:
-        f = codecs.open(sys.argv[1], 'r', 'utf-8')
-        query_str = f.read()
-    except FileNotFoundError:
-        print('Please provide a valid input file as an argument')
+    if(len(sys.argv) != 2):
+        print('Please provide the body of a tweet to search for evidence for')
         sys.exit(1)
-    except IndexError:
-        print("Please provide a valid input file as an argument")
-        sys.exit(1)
+    query_str = shorten_google_query(sys.argv[1])
     # Make the query, filter results
     links = make_google_query(query_str)
     links = filter_links(links)
@@ -53,11 +47,11 @@ def main(argv):
         if 'snopes.com/fact-check' in link:
             rating = snopes_rating(link)
             print("Snopes article found at URL: " + link)
-            print("Truth rating in this article is " + rating)
+            print("Truth rating in this article is " + rating + "\n")
         elif 'reuters.com/article' in link:
             rating = reuters_rating(link)
             print("Reuters article found at URL: " + link)
-            print("Verdict found in this article is " + rating)
+            print("Verdict found in this article is " + rating + "\n")
         elif 'twitter.com' in link:
             print("Tweet or related tweet potentially found on live web at URL " + link)
 

@@ -55,17 +55,10 @@ def generate_snopes_query(tweet_text):
     return generate_query_url(snopes_query)
 
 def main(argv):
-    # Open input file
-    try:
-        f = codecs.open(sys.argv[1], 'r', 'utf-8"')
-        query_str = f.read()
-    except FileNotFoundError:
-        print('Please provide a valid input file as an argument')
+    if(len(sys.argv) != 2):
+        print("Please provide only a supposed tweet as an argument")
         sys.exit(1)
-    except IndexError:
-        print("Please provide a valid input file as an argument")
-        sys.exit(1)
-    query = generate_snopes_query(query_str)
+    query = generate_snopes_query(sys.argv[1])
     # Grab all links from query
     links = grab_links(query)
     # Output url and rating of every article found
