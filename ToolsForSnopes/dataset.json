@@ -30,6 +30,9 @@
             "URL": "https://www.snopes.com/fact-check/donald-trump-terrorism-tweet/",
             "Supposed author": "Donald Trump",
             "Verdict": "True",
+            "Tweet URLs":{
+                "Archived URL": "https://web.archive.org/web/20160612165409/http://twitter.com/realDonaldTrump/status/742034549232766976"
+            },
             "Tweet body": "Appreciate the congrats for being right on radical Islamic terrorism, I don't want congrats, I want toughness & vigilance. We must be smart!",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=Appreciate+the+congrats+for+being+right+on+radical+Islamic+terrorism%2C+I+don%27t+want+congrats%2C+I+want",
@@ -248,6 +251,10 @@
             "URL": "https://www.snopes.com/fact-check/republican-impeached-clinton-scandal/",
             "Supposed author": "Will McAvoy",
             "Verdict":"True",
+            "Tweet URLs":{
+                "Live URL": "https://twitter.com/WillMcAvoyACN/status/725469121102512129",
+                "Archived URL": "https://web.archive.org/web/20160513065457/https://twitter.com/WillMcAvoyACN/status/725469121102512129"
+            },
             "Tweet body": "Reminder: Every Republican Speaker of the House who oversaw the impeachment of Bill Clinton has now been found to be a part of a sex scandal",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=Reminder%3A+Every+Republican+Speaker+of+the+House+who+oversaw+the+impeachment+of+Bill+Clinton+has+now",
@@ -274,6 +281,10 @@
             "URL": "https://www.snopes.com/fact-check/texas-governor-tweet-rapist/",
             "Supposed author": "Greg Abbott",
             "Verdict":"True",
+            "Tweet URLs":{
+                "Live URL": "https://twitter.com/GregAbbott_TX/status/1092957045777608704",
+                "Archived URL": "https://web.archive.org/web/20190211163208/https://twitter.com/GregAbbott_TX/status/1092957045777608704"
+            },
             "Tweet body": "This disgusting rape isn't tolerated in Texas. We won't deport him, just to have him return. Instead, he'll spend the next 244 years in jail-- which means life. It won't be a pleasant stay.  #txlege  http://bbc-edition.com/2019/02/03/illegal-immigrant-raped-his-one-month-old-daughter-left-her-with-45-broken-bones-please-deport-all-illegal-immigrant/",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=This+disgusting+rape+isn%27t+tolerated+in+Texas.+We+won%27t+deport+him%2C+just+to+have+him+return",
@@ -300,6 +311,9 @@
             "URL": "https://www.snopes.com/fact-check/trump-sends-unpresidented-tweet/",
             "Supposed author": "Donald Trump",
             "Verdict":"True",
+            "Tweet URLs": {
+                "Archived URL": "https://archive.ph/asd9Z"
+            },
             "Tweet body": "China steals United States Navy research drone in international waters - rips it out of water and takes it to China in unpresidented act.",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=China+steals+United+States+Navy+research+drone+in+international+waters+-+rips+it+out+of+water+and",
@@ -446,6 +460,10 @@
             "URL": "https://www.snopes.com/fact-check/marjorie-taylor-greene-woman-choice/",
             "Supposed author": "Marjorie Taylor Greene",
             "Verdict":"True",
+            "Tweet URLs": {
+                "Live URL": "https://twitter.com/RepMTG/status/1526616953581887489",
+                "Archived URL": "https://web.archive.org/web/20220517173404/https://twitter.com/RepMTG/status/1526616953581887489"
+            },
             "Tweet body": "The greatest choice a woman can make is becoming a mother.",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=The+greatest+choice+a+woman+can+make+is+becoming+a+mother",
@@ -503,6 +521,10 @@
             "URL": "https://www.snopes.com/fact-check/mike-pence-tweet/",
             "Supposed author": "Mike Pence",
             "Verdict":"True",
+            "Tweet URLs":{
+                "Live URL": "https://twitter.com/Mike_Pence/status/1346918222432374785",
+                "Archived URL": "https://web.archive.org/web/20220103084447/https://twitter.com/Mike_Pence/status/1346918222432374785"
+            },
             "Tweet body": "Peaceful protest is the right of every American but this attack on our Capitol will not be tolerated and those involved will be prosecuted to the fullest extent of the law.",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=Peaceful+protest+is+the+right+of+every+American+but+this+attack+on+our+Capitol+will+not+be+tolerated",
@@ -560,6 +582,10 @@
             "URL": "https://www.snopes.com/fact-check/did-aoc-say-this-about-trump/",
             "Supposed author": "Alexandria Ocasio-Cortez",
             "Verdict":"True",
+            "Tweet URLs":{
+                "Live URL": "https://twitter.com/AOC/status/1319480642250354688",
+                "Archived URL": "https://web.archive.org/web/20201023033133/https://twitter.com/AOC/status/1319480642250354688"
+            },
             "Tweet body": "If someone told me 3 years ago, while I was waitressing to help my family stay afloat, that in a few short years an unhinged President of the United States would be repeatedly saying my name at the 2020 debate, I would've brought them some water and told them to sober up.",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=If+someone+told+me+3+years+ago%2C+while+I+was+waitressing+to+help+my+family+stay+afloat%2C+that+in+a+few",
@@ -591,6 +617,9 @@
             "URL": "https://www.snopes.com/fact-check/neil-degrasse-tyson-vax-tweet/",
             "Supposed author": "Neil DeGrasse Tyson",
             "Verdict":"True",
+            "Tweet URLs":{
+                "Archived URL": "https://web.archive.org/web/20210831105442/https://twitter.com/neiltyson/status/1432657940071297026"
+            },
             "Tweet body": "In case anyone is curious... Right now in the USA, every ten days, more than 8,000 (unvaccinated) Republican voters are dying of COVID-19. That's 5X the rate for Democrats.",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=In+case+anyone+is+curious...++Right+now+in+the+USA%2C+every+ten+days%2C+more+than+8%2C000+%28unvaccinated%29",
@@ -643,6 +672,10 @@
             "URL": "https://www.snopes.com/fact-check/the-onion-banned-on-twitter/",
             "Supposed author": "The Onion",
             "Verdict":"True",
+            "Tweet URLs":{
+                "Live URL": "https://twitter.com/TheOnion/status/1517169751704981506",
+                "Archived URL": "https://web.archive.org/web/20220421155412/https://twitter.com/TheOnion/status/1517169751704981506"
+            },
             "Tweet body": "The Onion has been banned from Twitter, follow us on Twitter for more updates.",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=The+Onion+has+been+banned+from+Twitter%2C+follow+us+on+Twitter+for+more+updates",
@@ -669,6 +702,9 @@
             "URL": "https://www.snopes.com/fact-check/republican-dean-browning-gay/",
             "Supposed author": "Dean Browning",
             "Verdict":"True",
+            "Tweet URLs":{
+                "Archived URL": "https://archive.ph/CgyS0"
+            },
             "Tweet body": "I'm a black gay guy and I can personally say that Obama did nothing for me, my life only changed a little bit and it was for the worse. Everything is so much better under Trump though. I feel respected - which I never do when democrats are involved",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=I%27m+a+black+gay+guy+and+I+can+personally+say+that+Obama+did+nothing+for+me%2C+my+life+only+changed+a",
@@ -695,6 +731,9 @@
             "URL": "https://www.snopes.com/fact-check/trump-tweet-echo-mein-kampf/",
             "Supposed author": "Donald Trump",
             "Verdict":"True",
+            "Tweet URLs":{
+                "Archived URL": "https://web.archive.org/web/20180817001350/twitter.com/realDonaldTrump/status/1030094399362007040"
+            },
             "Tweet body": "There is nothing that I would want more for our Country than true FREEDOM OF THE PRESS. The fact is that the Press is FREE to write and say anything it wants, but much of what it says is FAKE NEWS, pushing a political agenda or just plain trying to hurt people. HONESTY WINS!",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=There+is+nothing+that+I+would+want+more+for+our+Country+than+true+FREEDOM+OF+THE+PRESS.+The+fact+is",
@@ -726,6 +765,9 @@
             "URL": "https://www.snopes.com/fact-check/ted-cruz-australia/",
             "Supposed author": "Ted Cruz",
             "Verdict":"True",
+            "Tweet URLs": {
+                "Archived URL": "https://archive.ph/nEQyd"
+            },
             "Tweet body": "Dems are power-drunk authoritarian kill-joys. Washington State: NO DANCING ALLOWED!!! Any rational & free citizen: Piss off.",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=Blue-state+Dems+are+power-drunk+authoritarian+kill-joys.++Washington+State%3A+NO+DANCING+ALLOWED%21%21%21",
@@ -752,6 +794,10 @@
             "URL": "https://www.snopes.com/fact-check/biden-tweet-pandemic/",
             "Supposed author": "Joe Biden",
             "Verdict":"True",
+            "Tweet URLs":{
+                "Live URL": "https://twitter.com/JoeBiden/status/1187829299207954437",
+                "Archived URL": "https://web.archive.org/web/20191025204135/https://twitter.com/JoeBiden/status/1187829299207954437"
+            },
             "Tweet body": "We are not prepared for a pandemic. Trump has rolled back progress President Obama and I made to strengthen global health security. We need leadership that builds public trust, focuses on real threats, and mobilizes the world to stop outbreaks before they reach our shores.",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=We+are+not+prepared+for+a+pandemic.+Trump+has+rolled+back+progress+President+Obama+and+I+made+to",
@@ -783,6 +829,10 @@
             "URL": "https://www.snopes.com/fact-check/un-gender-equality-tweet/",
             "Supposed author": "U.N. Women",
             "Verdict":"True",
+            "Tweet URLs":{
+                "Live URL": "https://twitter.com/UN_Women/status/1194307636226936832",
+                "Archived URL": "https://web.archive.org/web/20191112181539/https://twitter.com/UN_Women/status/1194307636226936832"
+            },
             "Tweet body": "Top 10 countries that have achieved gender equality: 1.2.3.4.5.6.7.8.9.10.There are none.",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=Top+10+countries+that+have+achieved+gender+equality%3A+++1.+2.+3.+4.+5.+6.+7.+8.+9.+10.++There+are",
@@ -809,6 +859,10 @@
             "URL": "https://www.snopes.com/fact-check/greg-abbott-urged-texans-gun-purchases/",
             "Supposed author": "Greg Abbott",
             "Verdict":"True",
+            "Tweet URLs":{
+                "Live URL": "https://twitter.com/GregAbbott_TX/status/659427797853536256",
+                "Archived URL": "https://web.archive.org/web/20160207054708/https://twitter.com/GregAbbott_TX/status/659427797853536256"
+            },
             "Tweet body": "I'm EMBARRASSED: Texas #2 in nation for new gun purchases, behind CALIFORNIA. Let's pick up the pace Texans @NRA",
             "Snopes query": {
                 "Query URL": "https://www.snopes.com/?s=I%27m+EMBARRASSED%3A+Texas+%232+in+nation+for+new+gun+purchases%2C+behind+CALIFORNIA.+Let%27s+pick+up+the",
