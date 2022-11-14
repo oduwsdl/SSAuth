@@ -38,3 +38,8 @@ Verdict found in this article is Satire
 Snopes article found at URL: https://www.snopes.com/fact-check/fake-obama-tweet/
 Truth rating in this article is False
 ```
+
+## Ground Truth Dataset of Tweets with Evidence of Attribution on the Web
+A ground truth dataset containing 30 tweets with associated articles on Snopes.com was also constructed for this project in order to evaluate the efficacy of our tools.
+Each entry contains the body of the tweet, the URL of the Snopes article, live and archived query URLs for queries as constructed by the script, and MRR and P@1 values measuring how those queries performed in finding the Snopes article.
+This dataset should be added to in the future with more tweets with evidence from a wider variety of sources. 
